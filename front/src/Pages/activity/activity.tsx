@@ -1,6 +1,6 @@
 import Nav from "../../components/nav";
 
-export default function Skill() {
+export default function Activity() {
   return (
     <div>
       <Nav></Nav>

@@ -2,9 +2,9 @@ import * as React from "react";
 import Box from "@mui/joy/Box";
 import Drawer from "@mui/joy/Drawer";
 import List from "@mui/joy/List";
-import MenuLogo from "../assets/images/menu.png";
 import ModalClose from "@mui/joy/ModalClose";
 import { Link, useLocation } from "react-router-dom";
+import WidgetsIcon from '@mui/icons-material/Widgets';
 
 
 export default function Nav() {
@@ -28,7 +28,7 @@ export default function Nav() {
   return (
     <Box sx={{ display: "flex"}}>
       <button className="w-12 h-12 m-2 fixed" onClick={toggleDrawer(true)}>
-        <img src={MenuLogo} alt="" />
+        <WidgetsIcon fontSize="large" color="primary"></WidgetsIcon>
       </button>
       <Drawer open={open} onClose={toggleDrawer(false)} color="primary" variant="soft" size="sm">
         <ModalClose />
@@ -55,14 +55,14 @@ export default function Nav() {
           </List>
           <List>
             <Link
-              to="/skill"
+              to="/activity"
               className={
-                location.pathname === "/skill"
+                location.pathname === "/activity"
                   ? "mt-8 mb-8 text-center font-bold text-4xl p-2 text-cyan-800 drop-shadow-4xl"
                   : "mt-8 mb-8 text-center font-bold text-lg p-2 text-cyan-500"
               }
             >
-              Skills
+              Activities
             </Link>
           </List>
           <List>

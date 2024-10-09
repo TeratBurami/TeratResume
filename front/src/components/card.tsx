@@ -5,24 +5,26 @@ import Card from "@mui/joy/Card";
 import CardContent from "@mui/joy/CardContent";
 import CardActions from "@mui/joy/CardActions";
 import Typography from "@mui/joy/Typography";
+import OpenInNew from '@mui/icons-material/OpenInNew';
 
 interface CardProps {
   title: string;
   description: string;
   image: string;
   year: string;
+  link:string;
 }
 
-export default function BottomActionsCard({ title, description, image, year }: CardProps) {
+export default function BottomActionsCard({ title, description, image, year, link }: CardProps) {
   return (
     <Card
       variant="outlined"
       sx={{
-        width: 340,
-        height: 170,
-        overflow: "auto",
-        resize: "horizontal",
+        width: 380,
+        height: 240,
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       }}
+      
     >
       <Box
         sx={{
@@ -43,6 +45,7 @@ export default function BottomActionsCard({ title, description, image, year }: C
       </CardContent>
       <CardActions buttonFlex="0 1 120px">
       </CardActions>
+      <Button target="_blank" component="a" href={link} startDecorator={<OpenInNew />}>Explore</Button>
     </Card>
   );
 }
