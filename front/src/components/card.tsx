@@ -35,17 +35,17 @@ export default function BottomActionsCard({ title, description, image, year, lin
       >
         <Avatar src={image} sx={{ width: 80, height: 80 }} />
         <Typography sx={{ marginLeft: "1rem" }}>
-            <Typography level="h3">{title}</Typography>
+            <Typography fontFamily="monospace" level="h4">{title}</Typography>
             <br />
-            <Typography level="title-sm">{description}</Typography>
+            <Typography fontFamily="monospace" level="title-sm">{description}</Typography>
         </Typography>
       </Box>
       <CardContent>
-        <Typography sx={{textAlign:"center", marginRight:"1.75rem"}} level="body-xs">{year}</Typography>
+        <Typography fontFamily="monospace" sx={{textAlign:"center", marginRight:"1.75rem"}} level="body-xs">{year}</Typography>
       </CardContent>
       <CardActions buttonFlex="0 1 120px">
       </CardActions>
-      <Button target="_blank" component="a" href={link} startDecorator={<OpenInNew />}>Explore</Button>
+      <Button target="_blank" component="a" href={link} startDecorator={<OpenInNew />}><p className="font-mono">Explore</p></Button>
     </Card>
   );
 }
