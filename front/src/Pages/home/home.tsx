@@ -17,27 +17,78 @@ import LanguageIcon from "@mui/icons-material/Language";
 import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import SkillDisplay from "../../components/skills_display";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function Home() {
   const [index, setIndex] = useState(0);
+  const match_media = useMediaQuery("(min-width:600px)");
 
-  const web_dev=[{src:'https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg',title:'HTML'},
-    {src:'https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg',title:'CSS'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Javascript'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'React.js'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Node.js'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Next.js'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Express.js'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Bootstrap'},
-    {src:'https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg',title:'Tailwind'}
-  ]
+  const web_dev = [
+    {
+      src: "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+      title: "HTML",
+    },
+    {
+      src: "https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg",
+      title: "CSS",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Javascript",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "React.js",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Node.js",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Next.js",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Express.js",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Bootstrap",
+    },
+    {
+      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      title: "Tailwind",
+    },
+  ];
 
-  const database=[
-    {src:"",title:"MySQL"},
-    {src:"",title:"MongoDB"},
-    {src:"",title:"SQLlite"},
-    {src:"",title:"GraphQL"}
-  ]
+  const database = [
+    { src: "", title: "MySQL" },
+    { src: "", title: "MongoDB" },
+    { src: "", title: "SQLlite" },
+    { src: "", title: "GraphQL" },
+  ];
+
+  const language = [
+    { src: "", title: "C" },
+    { src: "", title: "C#" },
+    { src: "", title: "C++" },
+    { src: "", title: "Java" },
+    { src: "", title: "Python" },
+    { src: "", title: "Dart" },
+    { src: "", title: "Javascript" },
+    { src: "", title: "Typescript" },
+  ];
+
+  const cybersecurity = [
+    { src: "", title: "Kali Linux" },
+    { src: "", title: "Burp suite" },
+    { src: "", title: "Wireshark" },
+    { src: "", title: "John the ripper" },
+    { src: "", title: "NetCat" },
+  ];
+
+
 
   return (
     <>
@@ -135,15 +186,22 @@ export default function Home() {
           size="lg"
           sx={{ width: "fit-content", margin: "auto", marginTop: "2rem" }}
         >
-          <TabList underlinePlacement="bottom" variant="soft">
+          <TabList
+            underlinePlacement="bottom"
+            variant="soft"
+            sx={{ backgroundColor: "black" }}
+            tabFlex="auto"
+          >
             <Tab
               variant={index === 0 ? "solid" : "plain"}
               color={index === 0 ? "primary" : "neutral"}
               value={0}
               indicatorPlacement="bottom"
+              orientation="vertical"
             >
-              <p className="font-mono">
-                <WebIcon></WebIcon> Web Programming
+              <p className="font-mono text-xs md:text-lg md:text-lg">
+                <WebIcon fontSize={match_media ? "medium" : "large"}></WebIcon>{" "}
+                <span hidden={!match_media}>Web Programming</span>
               </p>
             </Tab>
             <Tab
@@ -151,9 +209,13 @@ export default function Home() {
               color={index === 1 ? "primary" : "neutral"}
               value={1}
               indicatorPlacement="bottom"
+              orientation="vertical"
             >
-              <p className="font-mono">
-                <StorageIcon></StorageIcon> Database
+              <p className="font-mono text-xs md:text-lg">
+                <StorageIcon
+                  fontSize={match_media ? "medium" : "large"}
+                ></StorageIcon>{" "}
+                <span hidden={!match_media}>Database</span>
               </p>
             </Tab>
             <Tab
@@ -162,8 +224,11 @@ export default function Home() {
               value={2}
               indicatorPlacement="bottom"
             >
-              <p className="font-mono">
-                <LanguageIcon></LanguageIcon> Computer Languages
+              <p className="font-mono text-xs md:text-lg">
+                <LanguageIcon
+                  fontSize={match_media ? "medium" : "large"}
+                ></LanguageIcon>{" "}
+                <span hidden={!match_media}>Computer Languages</span>
               </p>
             </Tab>
             <Tab
@@ -172,8 +237,11 @@ export default function Home() {
               value={3}
               indicatorPlacement="bottom"
             >
-              <p className="font-mono">
-                <VerifiedUserIcon></VerifiedUserIcon> Cyber Security
+              <p className="font-mono text-xs md:text-lg">
+                <VerifiedUserIcon
+                  fontSize={match_media ? "medium" : "large"}
+                ></VerifiedUserIcon>{" "}
+                <span hidden={!match_media}>Cyber Security</span>
               </p>
             </Tab>
             <Tab
@@ -182,8 +250,11 @@ export default function Home() {
               value={4}
               indicatorPlacement="bottom"
             >
-              <p className="font-mono">
-                <HomeRepairServiceIcon></HomeRepairServiceIcon> Tools
+              <p className="font-mono text-xs md:text-lg">
+                <HomeRepairServiceIcon
+                  fontSize={match_media ? "medium" : "large"}
+                ></HomeRepairServiceIcon>{" "}
+                <span hidden={!match_media}>Tools</span>
               </p>
             </Tab>
           </TabList>
@@ -194,29 +265,33 @@ export default function Home() {
               Cyber security: Kali Linux, Burp suite, Wireshark, Nmap, Aircrack-ng, John the ripper,  Cain and Abel, Metasploit
               Tools: VS Code, Cloudflare, Firebase */}
           <TabPanel value={0}>
-            <div className="mx-auto w-3/4 grid grid-cols-3">
-              {/* <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
-              <p>React.js</p>
-              <p>Node.js</p>
-              <p>Next.js</p>
-              <p>Bootstrap</p>
-              <p>Tailwind</p> */}
-              {web_dev.map((item:any) => (
+            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
+              {web_dev.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={1}>
-            <div className="mx-auto w-1/2 grid grid-cols-2">
-            {database.map((item:any) => (
+            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
+              {database.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
-          <TabPanel value={2}>Computer Language</TabPanel>
-          <TabPanel value={3}>Cyber Security</TabPanel>
+          <TabPanel value={2}>
+            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
+              {language.map((item: any) => (
+                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
+              ))}
+            </div>
+          </TabPanel>
+          <TabPanel value={3}>
+          <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
+              {cybersecurity.map((item: any) => (
+                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
+              ))}
+            </div>
+          </TabPanel>
           <TabPanel value={4}>Tools</TabPanel>
         </Tabs>
       </div>
