@@ -27,7 +27,7 @@ export default function Nav() {
 
   return (
     <Box sx={{ display: "flex"}}>
-      <button className="w-12 h-12 m-2 fixed z-10" onClick={toggleDrawer(true)}>
+      <button className="w-12 h-12 my-auto" onClick={toggleDrawer(true)}>
         <WidgetsIcon fontSize="large" color="primary"></WidgetsIcon>
       </button>
       <Drawer open={open} onClose={toggleDrawer(false)} color="primary" variant="soft" size="sm">

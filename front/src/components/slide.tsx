@@ -11,7 +11,7 @@ export default function SlideShow(){
       alignItems: 'center',
       justifyContent: 'center',
       backgroundSize: 'cover',
-      height: '400px'
+      height: '400px',
     }
     const slideImages = [
       {

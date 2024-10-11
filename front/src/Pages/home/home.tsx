@@ -18,6 +18,7 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import SkillDisplay from "../../components/skills_display";
 import useMediaQuery from "@mui/material/useMediaQuery";
+import { Divider } from "@mui/joy";
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -88,15 +89,28 @@ export default function Home() {
     { src: "", title: "NetCat" },
   ];
 
+  const tools = [
+    { src: "", title: "VS Code" },
+    { src: "", title: "Cloudflare" },
+    { src: "", title: "Firebase" },
+    { src: "", title: "Postman" },
+    { src: "", title: "GitHub" },
+  ];
 
+  const opr_system = [
+    { src: "", title: "Windows" },
+    { src: "", title: "Linux" },
+  ];
 
   return (
     <>
       {/* header */}
-      <Nav></Nav>
-      <h1 className="text-center text-8xl font-bold text-cyan-500 my-8 underline underline-offset-8">
-        Resume
-      </h1>
+      <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
+        <Nav></Nav>
+        <p className="text-xl mx-auto font-semibold text-cyan-400 my-auto">Terat Burami's Resume</p>
+        <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
+      </div>
+
       <Slide></Slide>
       {/* personal information */}
       <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap p-10 mt-20 justify-center gap-20">
@@ -172,7 +186,7 @@ export default function Home() {
       </div>
 
       {/* skill */}
-      <div className="skill">
+      <div className="skill pb-24">
         <h1 className="underline underline-offset-8 font-bold text-4xl text-center text-cyan-300 mt-20">
           Skills
         </h1>
@@ -258,12 +272,6 @@ export default function Home() {
               </p>
             </Tab>
           </TabList>
-          {/* Web Programming: HTML, CSS, JavaScript, React.js, Node.js, Next.js, Express.js, Django, Flask, Bootstrap, Tailwind
-              Database: MySQL, MongoDB
-              Computer languages: C, C#, C++, Java, JavaScript, Python, Dart, GO
-              Application: React Native, Flutter
-              Cyber security: Kali Linux, Burp suite, Wireshark, Nmap, Aircrack-ng, John the ripper,  Cain and Abel, Metasploit
-              Tools: VS Code, Cloudflare, Firebase */}
           <TabPanel value={0}>
             <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
               {web_dev.map((item: any) => (
@@ -286,13 +294,25 @@ export default function Home() {
             </div>
           </TabPanel>
           <TabPanel value={3}>
-          <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
+            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
               {cybersecurity.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
-          <TabPanel value={4}>Tools</TabPanel>
+          <TabPanel value={4}>
+            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
+              {tools.map((item: any) => (
+                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
+              ))}
+            </div>
+            <div className="w-3/4 h-0.5 bg-cyan-800 mx-auto my-10"></div>
+            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
+              {opr_system.map((item: any) => (
+                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
+              ))}
+            </div>
+          </TabPanel>
         </Tabs>
       </div>
     </>
