@@ -18,7 +18,7 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import SkillDisplay from "../../components/skills_display";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { Divider } from "@mui/joy";
+import Footer from "../../components/footer";
 
 export default function Home() {
   const [index, setIndex] = useState(0);
@@ -105,11 +105,11 @@ export default function Home() {
   return (
     <>
       {/* header */}
-      <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
         <Nav></Nav>
+      {/* <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
         <p className="text-xl mx-auto font-semibold text-cyan-400 my-auto">Terat Burami's Resume</p>
         <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
-      </div>
+      </div> */}
 
       <Slide></Slide>
       {/* personal information */}
@@ -315,6 +315,8 @@ export default function Home() {
           </TabPanel>
         </Tabs>
       </div>
+
+      <Footer></Footer>
     </>
   );
 }

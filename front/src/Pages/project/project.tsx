@@ -1,6 +1,6 @@
 import Nav from "../../components/nav";
 
-export default function Competition() {
+export default function Project() {
     return (
       <div>
         <Nav></Nav>

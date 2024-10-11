@@ -1,7 +1,7 @@
 import {Route,Routes,BrowserRouter as Router} from 'react-router-dom';
 import Home from './Pages/home/home'
 import Activity from './Pages/activity/activity'
-import Competition from './Pages/competition/competition';
+import Project from './Pages/project/project';
 
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home></Home>} />
           <Route path="/activity" element={<Activity></Activity>} />
-          <Route path="/competition" element={<Competition></Competition>} />
+          <Route path="/project" element={<Project></Project>} />
         </Routes>
       </Router>
     </>
