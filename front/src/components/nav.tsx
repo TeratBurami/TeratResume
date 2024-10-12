@@ -30,7 +30,7 @@ export default function Nav() {
 
 
   return (
-    <Box sx={{ display: "flex"}}>
+    <Box sx={{ display: "flex", marginBottom: "4rem" }}>
       <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
           <button className="w-12 h-12 my-auto" onClick={toggleDrawer(true)}>
             <WidgetsIcon fontSize="large" sx={{color:"rgb(34 211 238)"}}></WidgetsIcon>
