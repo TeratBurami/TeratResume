@@ -6,14 +6,14 @@ import Project from './Pages/project/project';
 
 export default function App() {
   return (
-    <>
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home></Home>} />
-          <Route path="/activity" element={<Activity></Activity>} />
-          <Route path="/project" element={<Project></Project>} />
+          <Route path="/experiences" element={<Activity></Activity>} />
+          <Route path="/projects" element={<Project></Project>} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }

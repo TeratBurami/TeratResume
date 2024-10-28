@@ -1,4 +1,4 @@
-import Nav from "../../components/nav";
+import Nav from "../../components/nav/nav";
 import Card from "../../components/card";
 import Mahidol from "../../assets/images/mahidol.png";
 import Suankularb from "../../assets/images/Suankularb_Wittayalai_School_emblem.png";
@@ -19,97 +19,16 @@ import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import SkillDisplay from "../../components/skills_display";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Footer from "../../components/footer";
+import skillJson from '../../json/skill.json'
 
 export default function Home() {
   const [index, setIndex] = useState(0);
   const match_media = useMediaQuery("(min-width:600px)");
 
-  const web_dev = [
-    {
-      src: "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
-      title: "HTML",
-    },
-    {
-      src: "https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg",
-      title: "CSS",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Javascript",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "React.js",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Node.js",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Next.js",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Express.js",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Bootstrap",
-    },
-    {
-      src: "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
-      title: "Tailwind",
-    },
-  ];
-
-  const database = [
-    { src: "", title: "MySQL" },
-    { src: "", title: "MongoDB" },
-    { src: "", title: "SQLlite" },
-    { src: "", title: "GraphQL" },
-  ];
-
-  const language = [
-    { src: "", title: "C" },
-    { src: "", title: "C#" },
-    { src: "", title: "C++" },
-    { src: "", title: "Java" },
-    { src: "", title: "Python" },
-    { src: "", title: "Dart" },
-    { src: "", title: "Javascript" },
-    { src: "", title: "Typescript" },
-  ];
-
-  const cybersecurity = [
-    { src: "", title: "Kali Linux" },
-    { src: "", title: "Burp suite" },
-    { src: "", title: "Wireshark" },
-    { src: "", title: "John the ripper" },
-    { src: "", title: "NetCat" },
-  ];
-
-  const tools = [
-    { src: "", title: "VS Code" },
-    { src: "", title: "Cloudflare" },
-    { src: "", title: "Firebase" },
-    { src: "", title: "Postman" },
-    { src: "", title: "GitHub" },
-  ];
-
-  const opr_system = [
-    { src: "", title: "Windows" },
-    { src: "", title: "Linux" },
-  ];
-
   return (
-    <>
+    <div>
       {/* header */}
-        <Nav></Nav>
-      {/* <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
-        <p className="text-xl mx-auto font-semibold text-cyan-400 my-auto">Terat Burami's Resume</p>
-        <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
-      </div> */}
+      <Nav></Nav>
 
       <Slide></Slide>
       {/* personal information */}
@@ -131,21 +50,21 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-sky-800 flex-wrap md:flex-nowrap w-fit mx-auto rounded-3xl shadow-lg shadow-slate-900 p-24">
+      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-sky-800 flex-wrap md:flex-nowrap w-2/3 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
-          <h1 className="underline underline-offset-4 text-2xl md:text-4xl font-bold text-cyan-300">
+          <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
             Language
           </h1>
-          <ul className="text-xl md:text-2xl font-semibold text-cyan-400 list-inside mt-4">
+          <ul className="text-lg font-semibold text-cyan-400 list-inside mt-4">
             <li className="my-4">Thai - Native</li>
             <li>English - Intermediate</li>
           </ul>
         </div>
         <div className="contacts">
-          <h1 className="underline underline-offset-4 text-2xl md:text-4xl font-bold text-cyan-300">
+          <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
             Contacts
           </h1>
-          <ul className="text-lg md:text-2xl font-semibold text-cyan-400 list-inside mt-4">
+          <ul className="text-lg font-semibold text-cyan-400 list-inside mt-4">
             <li className="my-4">
               <CallIcon fontSize="medium"></CallIcon>
               <a className="pl-6" href="tel:+66994539941">
@@ -197,13 +116,13 @@ export default function Home() {
             setIndex(value as number);
             console.log(value);
           }}
-          size="lg"
-          sx={{ width: "fit-content", margin: "auto", marginTop: "2rem" }}
+          size="sm"
+          sx={{ width: "75%", margin: "auto", marginTop: "2rem" }}
         >
           <TabList
             underlinePlacement="bottom"
             variant="soft"
-            sx={{ backgroundColor: "black" }}
+            sx={{ backgroundColor: "floralwhite"}}
             tabFlex="auto"
           >
             <Tab
@@ -214,7 +133,7 @@ export default function Home() {
               orientation="vertical"
             >
               <p className="font-mono text-xs md:text-lg md:text-lg">
-                <WebIcon fontSize={match_media ? "medium" : "large"}></WebIcon>{" "}
+                <WebIcon fontSize="medium"></WebIcon>{" "}
                 <span hidden={!match_media}>Web Programming</span>
               </p>
             </Tab>
@@ -227,7 +146,7 @@ export default function Home() {
             >
               <p className="font-mono text-xs md:text-lg">
                 <StorageIcon
-                  fontSize={match_media ? "medium" : "large"}
+                  fontSize="medium"
                 ></StorageIcon>{" "}
                 <span hidden={!match_media}>Database</span>
               </p>
@@ -240,7 +159,7 @@ export default function Home() {
             >
               <p className="font-mono text-xs md:text-lg">
                 <LanguageIcon
-                  fontSize={match_media ? "medium" : "large"}
+                  fontSize="medium"
                 ></LanguageIcon>{" "}
                 <span hidden={!match_media}>Computer Languages</span>
               </p>
@@ -253,7 +172,7 @@ export default function Home() {
             >
               <p className="font-mono text-xs md:text-lg">
                 <VerifiedUserIcon
-                  fontSize={match_media ? "medium" : "large"}
+                  fontSize="medium"
                 ></VerifiedUserIcon>{" "}
                 <span hidden={!match_media}>Cyber Security</span>
               </p>
@@ -266,49 +185,49 @@ export default function Home() {
             >
               <p className="font-mono text-xs md:text-lg">
                 <HomeRepairServiceIcon
-                  fontSize={match_media ? "medium" : "large"}
+                  fontSize="medium"
                 ></HomeRepairServiceIcon>{" "}
                 <span hidden={!match_media}>Tools</span>
               </p>
             </Tab>
           </TabList>
           <TabPanel value={0}>
-            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
-              {web_dev.map((item: any) => (
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-2 md:gap-16">
+              {skillJson.web_dev.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={1}>
-            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
-              {database.map((item: any) => (
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around md:gap-12">
+              {skillJson.database.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={2}>
-            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
-              {language.map((item: any) => (
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-4 md:gap-24">
+              {skillJson.language.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={3}>
-            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
-              {cybersecurity.map((item: any) => (
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-8 md:gap-24">
+              {skillJson.cybersecurity.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={4}>
-            <div className="mx-auto w-3/4 grid grid-cols-3 gap-10">
-              {tools.map((item: any) => (
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-8 md:gap-24">
+              {skillJson.tools.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
             <div className="w-3/4 h-0.5 bg-cyan-800 mx-auto my-10"></div>
-            <div className="mx-auto w-3/4 grid grid-cols-2 gap-10">
-              {opr_system.map((item: any) => (
+            <div className="mx-auto w-3/4 flex justify-around">
+              {skillJson.opr_system.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
@@ -317,6 +236,6 @@ export default function Home() {
       </div>
 
       <Footer></Footer>
-    </>
+    </div>
   );
 }

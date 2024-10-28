@@ -1,21 +1,17 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
 import InfoIcon from '@mui/icons-material/Info';
 import { useMediaQuery } from '@mui/material';
+import CloseIcon from '@mui/icons-material/Close';
 
 interface Props{
     title:string;
-    description:string;
+    detail:string;
     date:string;
     image:string;
 }
 
-export default function DialogPopup({title,description,date,image}:Props) {
+export default function DialogPopup({title,detail,date,image}:Props) {
   const [open, setOpen] = React.useState(false);
   const match_media = useMediaQuery("(min-width:600px)");
 
@@ -38,21 +34,14 @@ export default function DialogPopup({title,description,date,image}:Props) {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">
-          {title}
-        </DialogTitle>
-        <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending anonymous
-            location data to Google, even when no apps are running.
-          </DialogContentText>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Disagree</Button>
-          <Button onClick={handleClose} autoFocus>
-            Agree
-          </Button>
-        </DialogActions>
+        <div className='p-2 bg-cyan-200'>
+          <button onClick={handleClose} className='float-right'><CloseIcon fontSize='small'></CloseIcon></button>
+          <div className='px-8 pb-4'>
+            <h1 className='mt-8 text-xl font-bold text-cyan-950'>{title}</h1>
+            <p className='text-sky-700 mb-4'>- {date}</p>
+            <p className='text-lg font-bold text-cyan-800'>{detail}</p>
+          </div>
+        </div>
       </Dialog>
     </React.Fragment>
   );

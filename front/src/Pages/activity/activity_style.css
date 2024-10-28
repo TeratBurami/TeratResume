@@ -14,3 +14,20 @@
     animation-timeline: view();
     animation-range: entry 0% cover 25%;
 }
+
+.dot{
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.timeline{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 3px;
+    height:100%;
+    min-height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}

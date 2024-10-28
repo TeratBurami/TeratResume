@@ -1,0 +1,28 @@
+
+.banner-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner{
+    display: flex;
+    width: 400%;
+    animation: bannerMove 30s linear infinite;
+    gap: 1vw;
+}
+
+@media (max-width: 768px) {
+    #banner {
+        width:1000vw;
+    }
+}
+
+@keyframes bannerMove{
+    from {
+       transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

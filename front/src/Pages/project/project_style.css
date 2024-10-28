@@ -1,0 +1,144 @@
+.glow {
+  font-size: 80px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #27d1c2,
+      0 0 40px #27d1c2, 0 0 50px #27d1c2, 0 0 60px #27d1c2, 0 0 70px #27d1c2;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #0f7e92, 0 0 40px #0f7e92,
+      0 0 50px #0f7e92, 0 0 60px #0f7e92, 0 0 70px #0f7e92, 0 0 80px #0f7e92;
+  }
+}
+
+.scroll{
+    animation: var(--direction) linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: transform 0.1s ease-out;
+}
+
+.scale{
+    animation: var(--scale) linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    transition: transform 0.1s ease-out;
+}
+
+.appear{
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    transition: transform 0.1s ease-out;
+}
+
+.line{
+    width: 75%;
+    height: 2px;
+    background-color: cyan;
+    margin-left: auto;
+    margin-right: auto;
+    animation: appear 5s linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    transition: transform 0.1s ease-out;
+}
+
+.banner-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner{
+    display: flex;
+    width: calc(200%);
+    animation: bannerMove 5s linear infinite;
+}
+
+.banner li{
+    width: 100%;
+    height: auto;
+}
+
+@keyframes scroll-left{
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll-right{
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scroll-up{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scale-up{
+    from {
+        opacity: 0;
+        scale:0;
+    }
+    to {
+        opacity: 1;
+        scale:1;
+    }
+}
+
+@keyframes scale-down{
+    from {
+        opacity: 0;
+        scale:1;
+    }
+    to {
+        opacity: 1;
+        scale:0;
+    }
+}
+
+@keyframes appear{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bannerMove{
+    from {
+       transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+

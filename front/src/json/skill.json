@@ -1,0 +1,73 @@
+{"web_dev": [
+    {
+      "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+      "title": "HTML"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg",
+      "title": "CSS"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Javascript"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "React.js"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Node.js"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Next.js"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Express.js"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Bootstrap"
+    },
+    {
+      "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+      "title": "Tailwind"
+    }
+  ],
+  "database":[
+    { "src": "", "title": "MySQL" },
+    { "src": "", "title": "MongoDB" },
+    { "src": "", "title": "SQLlite" },
+    { "src": "", "title": "GraphQL" }
+  ],
+  "language":[
+    { "src": "", "title": "C" },
+    { "src": "", "title": "C#" },
+    { "src": "", "title": "C++" },
+    { "src": "", "title": "Java" },
+    { "src": "", "title": "Python" },
+    { "src": "", "title": "Dart" },
+    { "src": "", "title": "Javascript" },
+    { "src": "", "title": "Typescript" }
+  ],
+  "cybersecurity":[
+    { "src": "", "title": "Kali Linux" },
+    { "src": "", "title": "Burp suite" },
+    { "src": "", "title": "Wireshark" },
+    { "src": "", "title": "John the ripper" },
+    { "src": "", "title": "NetCat" }
+  ],
+  "tools":[
+    { "src": "", "title": "VS Code" },
+    { "src": "", "title": "Cloudflare" },
+    { "src": "", "title": "Firebase" },
+    { "src": "", "title": "Postman" },
+    { "src": "", "title": "GitHub" }
+  ],
+  "opr_system":[
+    { "src": "", "title": "Windows" },
+    { "src": "", "title": "Linux" }
+  ]
+}
