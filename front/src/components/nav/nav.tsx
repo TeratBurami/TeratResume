@@ -9,6 +9,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import Profile from "../../assets/images/profile.png";
+import './nav_style.css'
 
 export default function Nav() {
 
@@ -32,12 +33,15 @@ export default function Nav() {
 
   return (
     <Box sx={{ display: "flex", marginBottom: "4rem" }}>
-      <div className="z-20 fixed flex bg-blue-900 w-full border-b-2 border-bottom border-cyan-400 p-2 px-4">
-          <button className="w-12 h-12 my-auto" onClick={toggleDrawer(true)}>
-            <WidgetsIcon fontSize="large" sx={{color:"rgb(34 211 238)"}}></WidgetsIcon>
-          </button>
-          <p className="text-xl mx-auto font-semibold text-cyan-400 my-auto">Terat Burami's Resume</p>
-          <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
+      <div className='borderFade w-full fixed z-20 border-fade'>
+        <div className="navbar z-0 top-0 left-0 w-full h-16"></div>
+        <div className="relative z-20 flex w-full p-2 px-4">
+            <button className="w-12 h-12 my-auto" onClick={toggleDrawer(true)}>
+              <WidgetsIcon className='text' fontSize="large" sx={{}}></WidgetsIcon>
+            </button>
+            <p className="text text-xl mx-auto font-semibold my-auto">Terat Burami's Resume</p>
+            <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
+        </div>
       </div>
 
       <Drawer open={open} onClose={toggleDrawer(false)} color="primary" variant="soft" size="sm">

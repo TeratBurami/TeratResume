@@ -3,6 +3,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Dialog from '../components/dialog'
 import { useMediaQuery } from '@mui/material';
 import itemData from '../json/activity.json'
+import { useState } from 'react';
 
 export default function ActivityCard() {
 
@@ -11,23 +12,16 @@ export default function ActivityCard() {
     
   return (
     <div>
-        <div className="grid md:grid-cols-2 mx-6 md:mx-20 mt-6 md:mt-12 mb-10 md:mb-20 gap-2">
+        <div className="w-11/12 md:w-4/5 mx-auto">
             {itemData.map((item) => (
-            <ImageListItem key={item.img} sx={{border:'2px solid cyan'}}>
-              <img
-                srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                src={`${item.img}?w=248&fit=crop&auto=format`}
-                alt={item.title}
-                loading="lazy"
-              />
-              <ImageListItemBar
-                title={<p className='font-bold text-sm lg:text-lg text-cyan-300'>{item.title}</p>}
-                subtitle={<p className='font-bold text-cyan-500'><span className='text-base md:text-lg'>{item.date}</span><br />{item.description}</p>}
-                actionIcon={
-                    <Dialog title={item.title} detail={item.more_detail} image={item.img} date={item.date}></Dialog>
-                  }
-              />
-            </ImageListItem>
+            <div className='md:flex gap-6 p-4 bg-white mb-8 rounded-xl shadow-lg'>
+              <img className='rounded-xl shadow-md md:mb-0 mb-4' src={item.img} alt="" />
+              <div className='w-full'>
+                <h1 className='text-right shadow-md text-xl font-bold bg-cyan-800 p-2 rounded-xl text-white'>{item.title}</h1>
+                <p className='text-right text-cyan-800 text-base mb-4'>{item.date}</p>
+                <p className='bg-white rounded-xl p-2 shadow-md mx-auto text-cyan-950 text-sm'>{item.more_detail}</p>
+              </div>
+            </div>
           ))}
         </div>
     </div>

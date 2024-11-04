@@ -33,7 +33,7 @@ export default function Home() {
       <Slide></Slide>
       {/* personal information */}
       <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap p-10 mt-20 justify-center gap-20">
-        <div className="p-4 bg-cyan-900 shadow-inner shadow-black rounded-full">
+        <div className="p-4 bg-cyan-950 shadow-inner shadow-black rounded-full">
           <img className="rounded-full" src={Profile} alt="" />
         </div>
         <div className="w-full md:w-1/3 my-auto shadow-inner shadow-slate-900 p-4 rounded-xl">
@@ -50,10 +50,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-sky-800 flex-wrap md:flex-nowrap w-2/3 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
+      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-2/3 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
           <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
-            Language
+            Languages
           </h1>
           <ul className="text-lg font-semibold text-cyan-400 list-inside mt-4">
             <li className="my-4">Thai - Native</li>
@@ -82,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* education */}
-      <div className="bg-sky-700 py-12 mt-24">
+      <div className="bg-cyan-950/75 py-12 mt-24">
         <h1 className="underline underline-offset-8 font-bold text-4xl text-center text-cyan-300">
           Education
         </h1>
@@ -192,35 +192,35 @@ export default function Home() {
             </Tab>
           </TabList>
           <TabPanel value={0}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-2 md:gap-16">
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-x-2 md:gap-x-16">
               {skillJson.web_dev.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={1}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around md:gap-12">
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around md:gap-x-12">
               {skillJson.database.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={2}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-4 md:gap-24">
+            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-x-4 md:gap-x-24">
               {skillJson.language.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={3}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-8 md:gap-24">
+            <div className="mx-auto w-3/4 flex flex-wrap justify-evenly md:justify-start gap-x-8 md:gap-x-28">
               {skillJson.cybersecurity.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={4}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-8 md:gap-24">
+            <div className="mx-auto w-3/4 flex flex-wrap justify-evenly md:justify-start gap-x-8 md:gap-x-28">
               {skillJson.tools.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}

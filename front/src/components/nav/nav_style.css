@@ -1,0 +1,54 @@
+.navbar{
+    background-color: #ffffff3c;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(2px);
+    animation: color_fade linear;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
+}
+
+.text{
+    animation: text_fade linear;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
+    color: rgb(0, 50, 100);
+}
+
+.borderFade{
+    border-bottom: none;
+    animation: border_fade linear;
+    animation-timeline: scroll();
+    animation-range: 0 200px;
+}
+
+@keyframes color_fade{
+    from {
+        background-color: #0a1322;
+        backdrop-filter: blur(0px);
+    }
+    to {
+        background-color: #ffffff3c;
+        backdrop-filter: blur(2px);
+    }
+}
+
+@keyframes border_fade{
+    from {
+        border-bottom: 2px solid cyan;
+    }
+    to {
+        border-bottom: none;
+    }
+}
+
+@keyframes text_fade{
+    from {
+        color: #ffffff;
+    }
+    to {
+        color: rgb(0, 50, 100);
+    }
+}
