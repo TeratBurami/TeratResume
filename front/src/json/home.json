@@ -8,106 +8,106 @@
           "title": "HTML"
         },
         {
-          "src": "https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\css.png",
           "detail":"lorem",
           "title": "CSS"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\js.png",
           "detail":"lorem",
           "title": "Javascript"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\react.png",
           "detail":"lorem",
           "title": "React.js"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\node.png",
           "detail":"lorem",
           "title": "Node.js"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\next.png",
           "detail":"lorem",
           "title": "Next.js"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\express.png",
           "detail":"lorem",
           "title": "Express.js"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\bootstrap.png",
           "detail":"lorem",
           "title": "Bootstrap"
         },
         {
-          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "src": "\\src\\assets\\images\\web_dev_icon\\tailwind.png",
           "detail":"lorem",
           "title": "Tailwind"
         }
       ],
       "database": [
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\database\\mysql.png",
           "detail":"lorem",
           "title": "MySQL"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\database\\mongo.png",
           "detail":"lorem",
           "title": "MongoDB"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\database\\sqllite.png",
           "detail":"lorem",
           "title": "SQLlite"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\database\\graph.png",
           "detail":"lorem",
           "title": "GraphQL"
         }
       ],
       "language": [
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\c.png",
           "detail":"lorem",
           "title": "C"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\csharp.png",
           "detail":"lorem",
           "title": "C#"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\c++.png",
           "detail":"lorem",
           "title": "C++"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\java.png",
           "detail":"lorem",
           "title": "Java"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\python.png",
           "detail":"lorem",
           "title": "Python"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\c++.png",
           "detail":"lorem",
           "title": "Dart"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\c++.png",
           "detail":"lorem",
           "title": "Javascript"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\src\\assets\\images\\language\\c++.png",
           "detail":"lorem",
           "title": "Typescript"
         }

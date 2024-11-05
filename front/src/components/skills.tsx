@@ -41,7 +41,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.web_dev?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
+                        <img className='w-12 h-12 rounded-full object-cover' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-sm text-cyan-700'>{item.detail}</p>
