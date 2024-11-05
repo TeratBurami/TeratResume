@@ -1,41 +1,38 @@
 [
-    {
-        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "title": "Thailand Cyber Top Talent 2023 by NCSA",
-        "description": "Top 81 out of 354 competitors (Top 22%)",
-        "date":"Sept 2023",
-        "rows": 2,
-        "cols": 2,
-        "featured": true,
-        "more_detail":"This is my first competition in cyber security field. "
-      },
-      {
-        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "title": "Thailand Cyber Top Talent 2024 by NCSA",
-        "description": "Top 24 out of 340 competitors (Top 7%)",
-        "date":"Sept 2024",
-        "more_detail":"This is my first competition in cyber security field. "
-      },
-      {
-        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "date":"Sept 2024",
-        "title": "ICPC Thailand National Competition 2024",
-        "description": "Joined international programming competition",
-        "cols": 2,
-        "more_detail":"This is my first competition in cyber security field. "
-      },
-      {
-        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "date":"Nov 2023",
-        "title": "Hackathon Mahidol MU My Mind",
-        "description": "Hackathon creating application for helping depression",
-        "more_detail":"This is my first competition in cyber security field. "
-      }
-      {
-        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "date":"Nov 2024",
-        "title": "Hackathon 2024: Alveolar Antral Artery",
-        "description": "Hackathon Alveolar Antral Artery Detection in CBCT images by AI club",
-        "more_detail":"This is my first competition in cyber security field. "
-      }
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "date": "Nov 2023",
+    "title": "Hackathon Mahidol MU My Mind",
+    "more_detail": "Collaborated during a hackathon to solving a problem and create prototype of smartphone application that aims to manage stress and lower the risk of depression. In addition to mindfulness exercises, guided meditations, and breathing methods, the app offered daily mood tracking, stress assessments, and individualized wellness advice. created a friendly atmosphere for mental health by implementing community-based support tools for user participation. used data analytics to promote healthy lifestyle choices and offer tailored feedback in order to enhance mental health results."
+  },
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "title": "Thailand Cyber Top Talent 2023 by NCSA",
+    "date": "Sept 2023",
+    "more_detail": "My first competition was in the cybersecurity field. Thailand Cyber Top Talent 2023 is a competition called Capture The Flag (CTF) that uses several cyber security skills to solve the problem and find the flag as an answer. I was part of the \"Lorem Ipsum\" team, I took on the responsibility of Network and Web exploitation. We ended up with 81/354"
+  },
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "title": "Thailand Cyber Top Talent 2024 by NCSA",
+    "date": "Sept 2024",
+    "more_detail": "I took so much time to practice myself to be better than the previous year, this year I was with the \"404BrainNotFound\" team. I focused on Web exploitation, Network, Forensic, and Mobile app exploitation. We improved ourselves and got a better ranking 24/340 for total teams, the first place of Mahidol University, and were third in our region"
+  },
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "date": "Sept 2024",
+    "title": "ICPC Thailand National Competition 2024",
+    "more_detail": "ICPC is a programming and problem-solving competition for universities across the country by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management."
+  },
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "date": "Sept 2024",
+    "title": "Hackathon 2024: Alveolar Antral Artery",
+    "more_detail": "AI Hackathon: Alveolar Antral Artery Detection, training AI located and clarified alveolar antral artery’s position with 3 classes by 3000 datasets"
+  },
+  {
+    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "date": "Jan 2025",
+    "title": "MUICT-AST: Cyber Awareness",
+    "more_detail": "MUICT-AST invites me to be a speaker to talk about cybersecurity for the students of Mahidol University. The topic is \"Cyber Security Awareness\" speaking about how to protect the device from a hacker, it also has a practical lab. I am thrilling to be able to share my knowledge with the students of Mahidol University."
+  }
 ]

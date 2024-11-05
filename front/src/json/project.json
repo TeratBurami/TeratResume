@@ -1,0 +1,47 @@
+{
+  "artsdrops": [
+    {
+      "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"
+    },
+    { "description": "This is a description of the artwork." },
+    { "frontend": "front end" },
+    { "backend": "back end" },
+    { "github": "link for git hub" }
+  ],
+  "ophweb": [
+    {
+      "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"
+    },
+    {
+      "string": [
+        { "first": [{ "title": "frontend" }, { "detail": "frontend detail" }] },
+        { "backend": [{ "title": "backend" }, { "detail": "backend detail" }] },
+        { "collab": [{ "title": "collab" }, { "detail": "collab detail" }] },
+        { "time": [{ "title": "time management" },{ "detail": "time management detail" } ]}
+      ]
+    },
+    {
+        "github":"link for git hub"
+    }
+  ],
+  "cocktail":[
+    {"img":[
+        {"1":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"2":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"3":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"4":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"5":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"6":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"7":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+        {"8":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"}
+    ]},
+    {"frontend":"front end detail"},
+    {"js":"javascript detail"},
+    {"github":"link for git hub"}
+  ],
+  "resume":[
+    {"img":"https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg"},
+    {"detail":"resume detail"},
+    {"github":"link for git hub"}
+  ]
+}

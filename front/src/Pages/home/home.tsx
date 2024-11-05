@@ -49,6 +49,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      
 
       <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
