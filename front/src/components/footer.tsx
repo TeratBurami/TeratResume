@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link , ScrollRestoration} from "react-router-dom";
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -17,9 +17,9 @@ export default function Footer(){
         <div className="bg-sky-950 border-t-2 border-[floralwhite] pt-8">
             <div className="md:flex justify-around">
                 <ul className="flex justify-around md:block mb-6 md:mb-0 mx-12 md:mx-0">
-                    <li className="text-[floralwhite] text-xl md:text-base font-semibold"><Link className="md:flex md:place-items-center" to='/'>{match_media? <HomeIcon></HomeIcon>:""}<p className="ml-2">Home</p></Link></li>
-                    <li className="text-[floralwhite] text-xl md:text-base font-semibold md:py-4"><Link className="md:flex md:place-items-center" to='/experiences'>{match_media? <EmojiEventsIcon></EmojiEventsIcon>:""}<p className="ml-2">Experiences</p></Link></li>
-                    <li className="text-[floralwhite] text-xl md:text-base font-semibold"><Link className="md:flex md:place-items-center" to='/projects'>{match_media? <SmartToyIcon></SmartToyIcon>:""}<p className="ml-2">Projects</p></Link></li>
+                    <li className="text-[floralwhite] text-lg md:text-base font-base"><Link className="md:flex md:place-items-center" to='/' preventScrollReset={false}>{match_media? <HomeIcon></HomeIcon>:""}<p className="ml-2">Home</p></Link></li>
+                    <li className="text-[floralwhite] text-lg md:text-base font-base md:py-4"><Link className="md:flex md:place-items-center" to='/experiences'>{match_media? <EmojiEventsIcon></EmojiEventsIcon>:""}<p className="ml-2">Experiences</p></Link></li>
+                    <li className="text-[floralwhite] text-lg md:text-base font-base"><Link className="md:flex md:place-items-center" to='/projects'>{match_media? <SmartToyIcon></SmartToyIcon>:""}<p className="ml-2">Projects</p></Link></li>
                 </ul>
                 <div hidden={match_media} className="w-3/4 h-0.5 bg-[floralwhite] mx-auto mb-2"></div>
                 <ul className="flex justify-around mx-16 md:mx-0 md:grid grid-cols-2 gap-10">

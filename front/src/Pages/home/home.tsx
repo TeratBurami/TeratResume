@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-2/3 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
+      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
           <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
             Languages
@@ -192,41 +192,41 @@ export default function Home() {
             </Tab>
           </TabList>
           <TabPanel value={0}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-x-2 md:gap-x-16">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-3 md:grid-cols-5">
               {skillJson.web_dev.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={1}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around md:gap-x-12">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-4 md:grid-cols-4">
               {skillJson.database.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={2}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-around gap-x-4 md:gap-x-24">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-4 md:grid-cols-4">
               {skillJson.language.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={3}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-evenly md:justify-start gap-x-8 md:gap-x-28">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-3">
               {skillJson.cybersecurity.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
           </TabPanel>
           <TabPanel value={4}>
-            <div className="mx-auto w-3/4 flex flex-wrap justify-evenly md:justify-start gap-x-8 md:gap-x-28">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-3">
               {skillJson.tools.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}
             </div>
             <div className="w-3/4 h-0.5 bg-cyan-800 mx-auto my-10"></div>
-            <div className="mx-auto w-3/4 flex justify-around">
+            <div className="grid gap-x-8 gap-y-4 grid-cols-2">
               {skillJson.opr_system.map((item: any) => (
                 <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
               ))}

@@ -31,4 +31,11 @@
         "description": "Hackathon creating application for helping depression",
         "more_detail":"This is my first competition in cyber security field. "
       }
+      {
+        "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+        "date":"Nov 2024",
+        "title": "Hackathon 2024: Alveolar Antral Artery",
+        "description": "Hackathon Alveolar Antral Artery Detection in CBCT images by AI club",
+        "more_detail":"This is my first competition in cyber security field. "
+      }
 ]
