@@ -3,19 +3,20 @@ import Box from "@mui/joy/Box";
 import Drawer from "@mui/joy/Drawer";
 import List from "@mui/joy/List";
 import ModalClose from "@mui/joy/ModalClose";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import WidgetsIcon from "@mui/icons-material/Widgets";
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import Profile from "../../assets/images/profile.png";
 import './nav_style.css'
+import { useMediaQuery } from "@mui/material";
 
 export default function Nav() {
 
 
-
-  const [open, setOpen] = React.useState(false);
+  const match_media = useMediaQuery("(min-width:600px)");
+  const [open, setOpen] = useState(false);
   let location = useLocation();
 
   const toggleDrawer =
@@ -33,13 +34,15 @@ export default function Nav() {
 
   return (
     <Box sx={{ display: "flex", marginBottom: "4rem" }}>
-      <div className='borderFade w-full fixed z-20 border-fade'>
+      <div className='w-full fixed z-20'>
         <div className="navbar z-0 top-0 left-0 w-full h-16"></div>
         <div className="relative z-20 flex w-full p-2 px-4">
-            <button className="w-12 h-12 my-auto" onClick={toggleDrawer(true)}>
-              <WidgetsIcon className='text' fontSize="large" sx={{}}></WidgetsIcon>
+            <button className="w-fit h-fit px-1 pb-1 pt md:p-1.5 my-auto rounded boxShadow" onClick={toggleDrawer(true)}>
+              <WidgetsIcon className='colorFade' fontSize={match_media? "medium":"small"} sx={{}}></WidgetsIcon>
             </button>
-            <p className="text text-xl mx-auto font-semibold my-auto">Terat Burami's Resume</p>
+            <div className='boxShadow rounded mx-auto p-1 px-4 md:p-2 md:px-6 w-fit h-fit my-auto'>
+              <p className="colorFade text-base md:text-xl font-semibold my-auto">Terat Burami's Resume</p>
+            </div>
             <img className="object-cover rounded-full w-10 h-10 my-auto" src={Profile} alt="" />
         </div>
       </div>
@@ -100,3 +103,4 @@ export default function Nav() {
 
   );
 }
+

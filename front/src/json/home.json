@@ -1,0 +1,199 @@
+{
+  "skills":[
+    {
+      "web_dev": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "HTML"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/a5/d2/a9/a5d2a913006aee3504a6882ce38f7959.jpg",
+          "detail":"lorem",
+          "title": "CSS"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Javascript"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "React.js"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Node.js"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Next.js"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Express.js"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Bootstrap"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/40/0f/22/400f22ce6f755ac476eb06c4cb45395c.jpg",
+          "detail":"lorem",
+          "title": "Tailwind"
+        }
+      ],
+      "database": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "MySQL"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "MongoDB"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "SQLlite"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "GraphQL"
+        }
+      ],
+      "language": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "C"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "C#"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "C++"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Java"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Python"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Dart"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Javascript"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Typescript"
+        }
+      ],
+      "cybersecurity": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Kali Linux"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Burp suite"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Wireshark"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "John the ripper"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "NetCat"
+        }
+      ],
+      "tools": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "VS Code"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Cloudflare"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Firebase"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Postman"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "GitHub"
+        }
+      ],
+      "opr_system": [
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Windows"
+        },
+        {
+          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "detail":"lorem",
+          "title": "Linux"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Suankularb Wittayalai",
+      "detail": "Math Science program",
+      "year": "2016 - 2022",
+      "img": "src\\assets\\images\\Suankularb_Wittayalai_School_emblem.png",
+      "url": "http://www.sk.ac.th/"
+    },
+    {
+      "name": "Mahidol University",
+      "detail": "Bachelor of Science in ICT",
+      "year": "2022 - Present",
+      "img": "src\\assets\\images\\mahidol.png",
+      "url": "https://www.ict.mahidol.ac.th/"
+    }
+  ]
+}

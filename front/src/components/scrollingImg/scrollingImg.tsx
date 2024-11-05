@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react';
 import './scrollingImg.css'
 
 interface Prop{
-    element:any[]
+    image:string[]
 }
 
-export default function scrollingImg({element}:Prop){
+export default function scrollingImg({image}:Prop){
 
     const bannerRef=useRef<HTMLDivElement | null>(null);
 
@@ -22,35 +22,27 @@ export default function scrollingImg({element}:Prop){
     }
 
     const imageDisplay=()=>{
-        const banner=document.getElementById("banner");
         // Create two sets of elements for seamless scrolling
-        element.forEach(element => {
-            let div = document.createElement("div");
-            div.setAttribute("class", element.className);
-            banner!.appendChild(div);
+        image.forEach(item => {
+            <img src={item} alt="" />
         });
         // Duplicate elements for continuous scrolling
-        element.forEach(element => {
-            let div = document.createElement("div");
-            div.setAttribute("class", element.className);
-            banner!.appendChild(div);
+        image.forEach(item => {
+            <img src={item} alt="" />
         });
     }
 
     useEffect(()=>{
         imageDisplay()
-        // Cleanup function to prevent multiple appends on re-render
-        return () => {
-            const banner = document.getElementById("banner");
-            if (banner) {
-                banner.innerHTML = '';
-            }
-        }
     }, []) // Empty dependency array to run only once
 
     return(
         <div className='banner-container' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-            <div id='banner' ref={bannerRef}></div>
+            <div id='banner' ref={bannerRef}>
+                {image.map((item, index) => (
+                    <img src={item} className='w-96 h-96 object-cover' alt="" key={index} />
+                ))}
+            </div>
         </div>
     )
 }

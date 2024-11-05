@@ -1,28 +1,16 @@
 import Nav from "../../components/nav/nav";
-import Card from "../../components/card";
-import Mahidol from "../../assets/images/mahidol.png";
-import Suankularb from "../../assets/images/Suankularb_Wittayalai_School_emblem.png";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import Profile from "../../assets/images/profile.png";
 import Slide from "../../components/slide";
-import Tabs from "@mui/joy/Tabs";
-import TabList from "@mui/joy/TabList";
-import Tab from "@mui/joy/Tab";
-import TabPanel from "@mui/joy/TabPanel";
-import { useState } from "react";
-import WebIcon from "@mui/icons-material/Web";
-import StorageIcon from "@mui/icons-material/Storage";
-import LanguageIcon from "@mui/icons-material/Language";
-import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
-import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
-import SkillDisplay from "../../components/skills_display";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Footer from "../../components/footer";
-import skillJson from '../../json/skill.json'
+import Data from '../../json/home.json'
+import OpenInNew from '@mui/icons-material/OpenInNew';
+import { Button } from "@mui/joy";
+import Skills from "../../components/skills";
 
 export default function Home() {
-  const [index, setIndex] = useState(0);
   const match_media = useMediaQuery("(min-width:600px)");
 
   return (
@@ -43,38 +31,37 @@ export default function Home() {
           <p className="mt-4 text-lg text-center text-cyan-600">
             I’m{" "}
             <span className="text-xl font-bold text-sky-400">Terat Burami</span>
-            , a junior developer and cyber security. <br />I love doing new
-            things, have new passions, gain experiences, and am always ready to
-            develop myself.
+            , a cyber security and junior developer.
+I enjoy trying new things, finding new interests, acquiring experiences, and am constantly eager to grow as a person.
           </p>
         </div>
       </div>
       
 
-      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
+      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-2/3 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
-          <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
+          <h1 className="text-2xl font-bold text-cyan-300">
             Languages
           </h1>
           <ul className="text-lg font-semibold text-cyan-400 list-inside mt-4">
-            <li className="my-4">Thai - Native</li>
-            <li>English - Intermediate</li>
+            <li className="my-4 text-base">Thai - Native</li>
+            <li className="text-base">English - Intermediate</li>
           </ul>
         </div>
         <div className="contacts">
-          <h1 className="underline underline-offset-4 text-2xl font-bold text-cyan-300">
+          <h1 className="text-2xl font-bold text-cyan-300">
             Contacts
           </h1>
           <ul className="text-lg font-semibold text-cyan-400 list-inside mt-4">
             <li className="my-4">
               <CallIcon fontSize="medium"></CallIcon>
-              <a className="pl-6" href="tel:+66994539941">
+              <a className="pl-6 text-base" href="tel:+66994539941">
                 +66 99-453-9941
               </a>
             </li>
             <li>
               <EmailIcon fontSize="medium"></EmailIcon>
-              <a className="pl-6" href="mailto:beamterat@gmail.com">
+              <a className="pl-6 text-base" href="mailto:beamterat@gmail.com">
                 beamterat@gmail.com
               </a>
             </li>
@@ -83,158 +70,27 @@ export default function Home() {
       </div>
 
       {/* education */}
-      <div className="bg-cyan-950/75 py-12 mt-24">
-        <h1 className="underline underline-offset-8 font-bold text-4xl text-center text-cyan-300">
-          Education
-        </h1>
-        <div className="mt-14 flex justify-center md:flex-nowrap flex-wrap gap-10 md:gap-16">
-          <Card
-            link="https://www.ict.mahidol.ac.th/"
-            year="2022 - Present"
-            title="Mahidol University"
-            description="Bachelor of Science in ICT (International Program)"
-            image={Mahidol}
-          ></Card>
-          <Card
-            link="http://www.sk.ac.th/"
-            year="2017 - 2022"
-            title="Suankularb Wittayalai"
-            description="Math Science program"
-            image={Suankularb}
-          ></Card>
+      <div className="w-5/6 mx-auto mt-10 md:mt-16">
+        <h1 className="text-white md:text-2xl">Education</h1>
+        <div className="md:flex justify-between mt-4 gap-24">
+          {Data.education.map((item)=> (
+                <div className="h-40 w-full bg-white rounded-lg shadow-lg shadow-slate-900 md:mb-0 mb-4">
+                  <div className="flex justify-around py-4 place-items-center">
+                    <img src={item.img} className="w-20 h-20 md:w-24 md:h-24 shadow shadow-slate-500 rounded-full" alt="" />
+                    <div>
+                      <h1 className="text-cyan-700 font-bold">{item.name}</h1>
+                      <p className="text-cyan-700">{item.detail}</p>
+                      <p className="text-cyan-500 mb-4">{item.year}</p>
+                      <Button sx={{width:"100%"}} target="_blank" component="a" href={item.url} startDecorator={<OpenInNew />}><p>Explore</p></Button>
+                    </div>
+                  </div>
+                </div>
+              ))}
         </div>
       </div>
 
       {/* skill */}
-      <div className="skill pb-24">
-        <h1 className="underline underline-offset-8 font-bold text-4xl text-center text-cyan-300 mt-20">
-          Skills
-        </h1>
-        <Tabs
-          aria-label="Soft tabs"
-          value={index}
-          onChange={(_event, value) => {
-            setIndex(value as number);
-            console.log(value);
-          }}
-          size="sm"
-          sx={{ width: "75%", margin: "auto", marginTop: "2rem" }}
-        >
-          <TabList
-            underlinePlacement="bottom"
-            variant="soft"
-            sx={{ backgroundColor: "floralwhite"}}
-            tabFlex="auto"
-          >
-            <Tab
-              variant={index === 0 ? "solid" : "plain"}
-              color={index === 0 ? "primary" : "neutral"}
-              value={0}
-              indicatorPlacement="bottom"
-              orientation="vertical"
-            >
-              <p className="font-mono text-xs md:text-lg md:text-lg">
-                <WebIcon fontSize="medium"></WebIcon>{" "}
-                <span hidden={!match_media}>Web Programming</span>
-              </p>
-            </Tab>
-            <Tab
-              variant={index === 1 ? "solid" : "plain"}
-              color={index === 1 ? "primary" : "neutral"}
-              value={1}
-              indicatorPlacement="bottom"
-              orientation="vertical"
-            >
-              <p className="font-mono text-xs md:text-lg">
-                <StorageIcon
-                  fontSize="medium"
-                ></StorageIcon>{" "}
-                <span hidden={!match_media}>Database</span>
-              </p>
-            </Tab>
-            <Tab
-              variant={index === 2 ? "solid" : "plain"}
-              color={index === 2 ? "primary" : "neutral"}
-              value={2}
-              indicatorPlacement="bottom"
-            >
-              <p className="font-mono text-xs md:text-lg">
-                <LanguageIcon
-                  fontSize="medium"
-                ></LanguageIcon>{" "}
-                <span hidden={!match_media}>Computer Languages</span>
-              </p>
-            </Tab>
-            <Tab
-              variant={index === 3 ? "solid" : "plain"}
-              color={index === 3 ? "primary" : "neutral"}
-              value={3}
-              indicatorPlacement="bottom"
-            >
-              <p className="font-mono text-xs md:text-lg">
-                <VerifiedUserIcon
-                  fontSize="medium"
-                ></VerifiedUserIcon>{" "}
-                <span hidden={!match_media}>Cyber Security</span>
-              </p>
-            </Tab>
-            <Tab
-              variant={index === 4 ? "solid" : "plain"}
-              color={index === 4 ? "primary" : "neutral"}
-              value={4}
-              indicatorPlacement="bottom"
-            >
-              <p className="font-mono text-xs md:text-lg">
-                <HomeRepairServiceIcon
-                  fontSize="medium"
-                ></HomeRepairServiceIcon>{" "}
-                <span hidden={!match_media}>Tools</span>
-              </p>
-            </Tab>
-          </TabList>
-          <TabPanel value={0}>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-3 md:grid-cols-5">
-              {skillJson.web_dev.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-          </TabPanel>
-          <TabPanel value={1}>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-4 md:grid-cols-4">
-              {skillJson.database.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-          </TabPanel>
-          <TabPanel value={2}>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-4 md:grid-cols-4">
-              {skillJson.language.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-          </TabPanel>
-          <TabPanel value={3}>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-3">
-              {skillJson.cybersecurity.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-          </TabPanel>
-          <TabPanel value={4}>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-3">
-              {skillJson.tools.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-            <div className="w-3/4 h-0.5 bg-cyan-800 mx-auto my-10"></div>
-            <div className="grid gap-x-8 gap-y-4 grid-cols-2">
-              {skillJson.opr_system.map((item: any) => (
-                <SkillDisplay src={item.src} title={item.title}></SkillDisplay>
-              ))}
-            </div>
-          </TabPanel>
-        </Tabs>
-      </div>
+      <Skills></Skills>
 
       <Footer></Footer>
     </div>

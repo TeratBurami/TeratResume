@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #ffffff3c;
+    background-color: #ffffff8f;
     position: absolute;
     top: 0;
     width: 100%;
@@ -10,19 +10,20 @@
     animation-range: 0 200px;
 }
 
-.text{
+.colorFade{
     animation: text_fade linear;
     animation-timeline: scroll();
     animation-range: 0 200px;
     color: rgb(0, 50, 100);
 }
 
-.borderFade{
-    border-bottom: none;
-    animation: border_fade linear;
+.boxShadow{
+    box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
+    animation: shadow_fade linear;
     animation-timeline: scroll();
     animation-range: 0 200px;
 }
+
 
 @keyframes color_fade{
     from {
@@ -30,19 +31,20 @@
         backdrop-filter: blur(0px);
     }
     to {
-        background-color: #ffffff3c;
+        background-color: #ffffff8f;
         backdrop-filter: blur(2px);
     }
 }
 
-@keyframes border_fade{
+@keyframes shadow_fade{
     from {
-        border-bottom: 2px solid cyan;
+        box-shadow: 0 1px 4.5px 0px rgba(255, 255, 255, 0.5);
     }
     to {
-        border-bottom: none;
+        box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
     }
 }
+
 
 @keyframes text_fade{
     from {

@@ -1,10 +1,6 @@
-import Avatar from "@mui/joy/Avatar";
 import Box from "@mui/joy/Box";
 import Button from "@mui/joy/Button";
 import Card from "@mui/joy/Card";
-import CardContent from "@mui/joy/CardContent";
-import CardActions from "@mui/joy/CardActions";
-import Typography from "@mui/joy/Typography";
 import OpenInNew from '@mui/icons-material/OpenInNew';
 
 interface CardProps {
@@ -20,8 +16,8 @@ export default function BottomActionsCard({ title, description, image, year, lin
     <Card
       variant="outlined"
       sx={{
-        width: 380,
-        height: 240,
+        width: "75%",
+        height: "200px",
         boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       }}
       
@@ -33,18 +29,15 @@ export default function BottomActionsCard({ title, description, image, year, lin
           alignItems: "center",
         }}
       >
-        <Avatar src={image} sx={{ width: 80, height: 80 }} />
-        <Typography sx={{ marginLeft: "1rem" }}>
-            <Typography fontFamily="monospace" level="h4">{title}</Typography>
-            <br />
-            <Typography fontFamily="monospace" level="title-sm">{description}</Typography>
-        </Typography>
+        <div className="flex gap-10">
+          <img src={image} className="w-20 h-20 shadow rounded-full shadow-slate-500" alt="" />
+          <div>
+            <h1 className="text-cyan-700 font-bold">{title}</h1>
+            <p className="text-cyan-700">{description}</p>
+            <p className="text-cyan-500">{year}</p>
+          </div>
+        </div>
       </Box>
-      <CardContent>
-        <Typography fontFamily="monospace" sx={{textAlign:"center", marginRight:"1.75rem"}} level="body-xs">{year}</Typography>
-      </CardContent>
-      <CardActions buttonFlex="0 1 120px">
-      </CardActions>
       <Button target="_blank" component="a" href={link} startDecorator={<OpenInNew />}><p className="font-mono">Explore</p></Button>
     </Card>
   );
