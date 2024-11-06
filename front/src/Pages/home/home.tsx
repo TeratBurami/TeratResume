@@ -3,7 +3,6 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import Profile from "../../assets/images/profile.png";
 import Slide from "../../components/slide";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import Footer from "../../components/footer";
 import Data from '../../json/home.json'
 import OpenInNew from '@mui/icons-material/OpenInNew';
@@ -11,7 +10,6 @@ import { Button } from "@mui/joy";
 import Skills from "../../components/skills";
 
 export default function Home() {
-  const match_media = useMediaQuery("(min-width:600px)");
 
   return (
     <div>

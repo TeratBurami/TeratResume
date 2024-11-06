@@ -5,13 +5,6 @@ import Data from '../json/image_slide.json'
 
 export default function SlideShow(){
     
-    const divStyle = {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      backgroundSize: 'cover',
-      height: '400px',
-    }
 
     return (
       <div className="slide-container">
