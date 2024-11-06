@@ -34,8 +34,8 @@ export default function Nav() {
 
   return (
     <Box sx={{ display: "flex", marginBottom: "4rem" }}>
-      <div className='w-full fixed z-20'>
-        <div className="navbar z-0 top-0 left-0 w-full h-16"></div>
+      <div className='w-full fixed z-20 top-0'>
+        <div className="navbar z-0 left-0 w-full h-16"></div>
         <div className="relative z-20 flex w-full p-2 px-4">
             <button className="w-fit h-fit px-1 pb-1 pt md:p-1.5 my-auto rounded boxShadow" onClick={toggleDrawer(true)}>
               <WidgetsIcon className='colorFade' fontSize={match_media? "medium":"small"} sx={{}}></WidgetsIcon>
