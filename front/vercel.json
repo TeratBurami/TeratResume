@@ -1,6 +1,6 @@
 {
     "rewrites": [
-        { "source": "/projects", "destination": "/projects" },
-        { "source": "/experiences", "destination": "/experiences" }
+        { "source": "/src/Pages/project/project.tsx", "destination": "/projects" },
+        { "source": "/src/Pages/activity/activity.tsx", "destination": "/experiences" }
     ]
   }
