@@ -8,106 +8,106 @@
           "title": "HTML"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\css.png",
+          "src": "\\web_dev_icon\\css.png",
           "detail":"lorem",
           "title": "CSS"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\js.png",
+          "src": "\\web_dev_icon\\js.png",
           "detail":"lorem",
           "title": "Javascript"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\react.png",
+          "src": "\\web_dev_icon\\react.png",
           "detail":"lorem",
           "title": "React.js"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\node.png",
+          "src": "\\web_dev_icon\\node.png",
           "detail":"lorem",
           "title": "Node.js"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\next.png",
+          "src": "\\web_dev_icon\\next.png",
           "detail":"lorem",
           "title": "Next.js"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\express.png",
+          "src": "\\web_dev_icon\\express.png",
           "detail":"lorem",
           "title": "Express.js"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\bootstrap.png",
+          "src": "\\web_dev_icon\\bootstrap.png",
           "detail":"lorem",
           "title": "Bootstrap"
         },
         {
-          "src": "\\src\\assets\\images\\web_dev_icon\\tailwind.png",
+          "src": "\\web_dev_icon\\tailwind.png",
           "detail":"lorem",
           "title": "Tailwind"
         }
       ],
       "database": [
         {
-          "src": "\\src\\assets\\images\\database\\mysql.png",
+          "src": "\\database\\mysql.png",
           "detail":"lorem",
           "title": "MySQL"
         },
         {
-          "src": "\\src\\assets\\images\\database\\mongo.png",
+          "src": "\\database\\mongo.png",
           "detail":"lorem",
           "title": "MongoDB"
         },
         {
-          "src": "\\src\\assets\\images\\database\\sqllite.png",
+          "src": "\\database\\sqllite.png",
           "detail":"lorem",
           "title": "SQLlite"
         },
         {
-          "src": "\\src\\assets\\images\\database\\graph.png",
+          "src": "\\database\\graph.png",
           "detail":"lorem",
           "title": "GraphQL"
         }
       ],
       "language": [
         {
-          "src": "\\src\\assets\\images\\language\\c.png",
+          "src": "\\language\\c.png",
           "detail":"lorem",
           "title": "C"
         },
         {
-          "src": "\\front\\src\\assets\\images\\language\\csharp.png",
+          "src": "\\language\\csharp.png",
           "detail":"lorem",
           "title": "C#"
         },
         {
-          "src": "\\front\\src\\assets\\images\\language\\c++.png",
+          "src": "\\language\\c++.png",
           "detail":"lorem",
           "title": "C++"
         },
         {
-          "src": "\\src\\assets\\images\\language\\java.png",
+          "src": "\\language\\java.png",
           "detail":"lorem",
           "title": "Java"
         },
         {
-          "src": "\\src\\assets\\images\\language\\python.png",
+          "src": "\\language\\python.png",
           "detail":"lorem",
           "title": "Python"
         },
         {
-          "src": "\\src\\assets\\images\\language\\c++.png",
+          "src": "\\language\\c++.png",
           "detail":"lorem",
           "title": "Dart"
         },
         {
-          "src": "\\src\\assets\\images\\language\\c++.png",
+          "src": "\\language\\c++.png",
           "detail":"lorem",
           "title": "Javascript"
         },
         {
-          "src": "\\src\\assets\\images\\language\\c++.png",
+          "src": "\\language\\c++.png",
           "detail":"lorem",
           "title": "Typescript"
         }
