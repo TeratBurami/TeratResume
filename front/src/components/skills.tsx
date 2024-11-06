@@ -37,8 +37,8 @@ export default function Skills() {
             <Tab sx={{textAlign:"center"}} disableIndicator>Cyber Security</Tab>
             <Tab sx={{textAlign:"center"}} disableIndicator>Tools</Tab>
           </TabList>
-          <TabPanel value={0} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto"}}>
-            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+          <TabPanel value={0} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto",height:match_media ? "350px" : "550px"}}>
+            <div className="grid grid-cols-3 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.web_dev?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
                         <img className='w-12 h-12 rounded-full object-cover' src={item.src} alt="" />
@@ -50,8 +50,8 @@ export default function Skills() {
                 ))}
             </div>
           </TabPanel>
-          <TabPanel value={1} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto"}}>
-            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+          <TabPanel value={1} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto",height:match_media ? "350px" : "550px"}}>
+            <div className="grid grid-cols-3 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.database?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
                         <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
@@ -63,8 +63,8 @@ export default function Skills() {
                 ))}
             </div>
           </TabPanel>
-          <TabPanel value={2} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto"}}>
-            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+          <TabPanel value={2} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto",height:match_media ? "350px" : "550px"}}>
+            <div className="grid grid-cols-3 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.language?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
                         <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
@@ -76,8 +76,8 @@ export default function Skills() {
                 ))}
             </div>
           </TabPanel>
-          <TabPanel value={3} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto"}}>
-            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+          <TabPanel value={3} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto",height:match_media ? "350px" : "550px"}}>
+            <div className="grid grid-cols-3 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.cybersecurity?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
                         <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
@@ -89,9 +89,22 @@ export default function Skills() {
                 ))}
             </div>
           </TabPanel>
-          <TabPanel value={4} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto"}}>
-            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+          <TabPanel value={4} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "5px auto",height:match_media ? "350px" : "550px"}}>
+            <div className="grid grid-cols-3 md:flex flex-wrap gap-10 mx-auto">
                 {Data.skills[0]?.tools?.map((item)=>(
+                    <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
+                        <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
+                        <div className="flex-cols place-items-center">
+                            <p className='text-md font-bold text-cyan-800'>{item.title}</p>
+                            <p className='text-sm text-cyan-700'>{item.detail}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <p className='text-cyan-700 text-base mt-8'>Operating System</p>
+            <div className='w-full h-0.5 bg-cyan-700 mb-4 mt-1'></div>
+            <div className="grid grid-cols-2 md:flex flex-wrap gap-10 mx-auto">
+                {Data.skills[0]?.opr_system?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
                         <img className='w-12 h-12 rounded-full' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">

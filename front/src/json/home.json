@@ -97,88 +97,88 @@
           "title": "Python"
         },
         {
-          "src": "\\language\\c++.png",
+          "src": "\\language\\dart.png",
           "detail":"lorem",
           "title": "Dart"
         },
         {
-          "src": "\\language\\c++.png",
+          "src": "\\web_dev_icon\\js.png",
           "detail":"lorem",
           "title": "Javascript"
         },
         {
-          "src": "\\language\\c++.png",
+          "src": "\\language\\ts.png",
           "detail":"lorem",
           "title": "Typescript"
         }
       ],
       "cybersecurity": [
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\cybersecurity\\kali.png",
           "detail":"lorem",
           "title": "Kali Linux"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\cybersecurity\\burp.png",
           "detail":"lorem",
           "title": "Burp suite"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\cybersecurity\\wireshark.png",
           "detail":"lorem",
           "title": "Wireshark"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\cybersecurity\\john.png",
           "detail":"lorem",
           "title": "John"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\cybersecurity\\nmap.png",
           "detail":"lorem",
-          "title": "NetCat"
+          "title": "Nmap"
         }
       ],
       "tools": [
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\vscode.png",
           "detail":"lorem",
           "title": "VS Code"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\cloudflare.png",
           "detail":"lorem",
           "title": "Cloudflare"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\firebase.png",
           "detail":"lorem",
           "title": "Firebase"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\postman.png",
           "detail":"lorem",
           "title": "Postman"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\docker.png",
           "detail":"lorem",
           "title": "Docker"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\github.png",
           "detail":"lorem",
           "title": "GitHub"
         }
       ],
       "opr_system": [
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\windows.png",
           "detail":"lorem",
           "title": "Windows"
         },
         {
-          "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
+          "src": "\\tools\\linux.png",
           "detail":"lorem",
           "title": "Linux"
         }
@@ -190,14 +190,14 @@
       "name": "Suankularb Wittayalai",
       "detail": "Math Science program",
       "year": "2016 - 2022",
-      "img": "src\\assets\\images\\Suankularb_Wittayalai_School_emblem.png",
+      "img": "\\Suankularb_Wittayalai_School_emblem.png",
       "url": "http://www.sk.ac.th/"
     },
     {
       "name": "Mahidol University",
       "detail": "Bachelor of Science in ICT",
       "year": "2022 - Present",
-      "img": "src\\assets\\images\\mahidol.png",
+      "img": "\\mahidol.png",
       "url": "https://www.ict.mahidol.ac.th/"
     }
   ]
