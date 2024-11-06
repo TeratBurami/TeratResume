@@ -42,6 +42,9 @@ export default function scrollingImg({image}:Prop){
                 {image.map((item, index) => (
                     <img src={item} className='w-96 h-96 object-cover' alt="" key={index} />
                 ))}
+                {image.map((item, index) => (
+                    <img src={item} className='w-96 h-96 object-cover' alt="" key={index} />
+                ))}
             </div>
         </div>
     )

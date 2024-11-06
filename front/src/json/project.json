@@ -1,7 +1,7 @@
 {
   "artsdrops": [
     {
-      "img": "https://i.pinimg.com/564x/b8/76/7a/b8767ab4170aef9ed95374b1717868aa.jpg",
+      "img": "\\project\\artsdrops.png",
       "detail": "I am the full-stack developer and project manager for ArtsDrops, my website project for the WEB PROGRAMMING course. ArtsDrops offers a variety of features, such as admin, sort, and search, for selling artwork and art toys.",
       "frontend": "I use React and Vite to create the front-end after designing prototypes with Figma. Use CSS and Tailwind to adorn the webpage.",
       "backend": "I created the website's API using Express.js so that it could retrieve data from the SQL database and transmit it to the front end for display. features a management system as well, which allows the administrator to oversee the website.",
@@ -10,7 +10,7 @@
   ],
   "ophweb": [
     {
-      "img": "https://i.pinimg.com/564x/01/97/95/01979535e9c715716853fae845405a39.jpg",
+      "img": "\\project\\oph.png",
       "design":"I designed the MUICT Openhouse 2023 registration page using Figma. That year's Openhouse had a Minecraft theme, so I had to think about coding in addition to designing it with that theme.",
       "front":"Following the design, I utilize Figma to construct the UX/UI, maintain the theme, and make it mobile-friendly.",
       "collab":"We collaborate to create a website for students to register for the MUICT Openhouse 2023 event. As a front-end developer, it is my responsibility to implement UX/UI.",
@@ -21,14 +21,15 @@
   "cocktail": [
     {
       "img": [
-        "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
-        "https://i.pinimg.com/736x/b5/cb/6a/b5cb6a5834e037173d91938e03a09c6e.jpg",
-        "https://i.pinimg.com/564x/a9/8c/ef/a98cef81d9968637981fed0a46fccd9b.jpg",
-        "https://i.pinimg.com/564x/9d/ec/4e/9dec4e404f72d956507757420ab8e3f2.jpg",
-        "https://i.pinimg.com/564x/e9/4a/d5/e94ad5ad40469eedde77685d68e42fa2.jpg",
-        "https://i.pinimg.com/564x/da/1d/b1/da1db1452129ce8557f08c8983403752.jpg",
-        "https://i.pinimg.com/564x/01/97/95/01979535e9c715716853fae845405a39.jpg",
-        "https://i.pinimg.com/564x/b8/76/7a/b8767ab4170aef9ed95374b1717868aa.jpg"
+        "\\project\\cocktail\\cocktail1.png",
+        "\\project\\cocktail\\cocktail2.png",
+        "\\project\\cocktail\\cocktail3.png",
+        "\\project\\cocktail\\cocktail4.png",
+        "\\project\\cocktail\\cocktail5.png",
+        "\\project\\cocktail\\cocktail6.png",
+        "\\project\\cocktail\\cocktail7.png",
+        "\\project\\cocktail\\cocktail8.png",
+        "\\project\\cocktail\\cocktail9.png"
       ],
       "detail":"used the Figma template they supplied to create a website for students studying communication design.",
       "frontend": "Creating responsive and eye-catching websites from Figma designs supplied by clients. adept at producing pixel-perfect, high-quality user interfaces that prioritize performance, usability, and cross-browser compatibility. devoted to working with designers to create flawless user experiences and precisely executing design criteria.",
@@ -38,7 +39,7 @@
   ],
   "resume": [
     {
-      "img": "https://i.pinimg.com/564x/da/1d/b1/da1db1452129ce8557f08c8983403752.jpg",
+      "img": "\\project\\resume.png",
       "detail": "To highlight my abilities, I'm using React and Vite to create my resume website. Development is greatly accelerated by Vite's quick builds and real-time updates. Before decomposing my resume's sections like \"Home,\" \"Experiences,\" and \"Projects\" into their component parts, I first set up the Vite project using React. I'm utilizing Tailwind for style in order to maintain uniformity and cleanliness. The site loads swiftly because to Vite's optimization, which is perfect for creating a positive impression. To make my work and abilities easily accessible, I intend to deploy it to Firebase.",
       "github": "https://github.com/TeratBurami/TeratResume"
     }

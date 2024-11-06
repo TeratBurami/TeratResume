@@ -11,9 +11,7 @@ export default function SlideShow(){
         <Fade>
          {Data.img.map((slideImage, index)=> (
             <div key={index}>
-              {/* <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-              </div> */}
-              <img className='w-full h-96 object-cover flex' src={slideImage} alt="" />
+              <img className='w-full h-96 md:h-[35vw] object-cover flex' src={slideImage} alt="" />
             </div>
           ))} 
         </Fade>

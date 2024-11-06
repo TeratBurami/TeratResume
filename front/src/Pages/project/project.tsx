@@ -35,7 +35,7 @@ export default function Project() {
 
 
         <section className="mt-20">
-          <img className="appear w-full h-96" src={Data.ophweb[0].img}></img>
+          <img className="appear w-full h-96 object-cover" src={Data.ophweb[0].img}></img>
           <h1 className="mt-8 appear scroll text-center text-2xl md:text-4xl font-bold text-cyan-500">MUICT Openhouse 2024<p className="text-cyan-400 underline underline-offset-4">Registration website</p></h1>
           <ul className="md:grid grid-cols-2 mt-14 md:mt-20 mx-12 text-justify text-cyan-600">
             <li className="border-b-2 md:border-r-2 p-4 border-cyan-300 text-sm"><h1 className="text-xl font-bold text-cyan-500 text-center">Front-end</h1>{Data.ophweb[0].design}</li>
@@ -73,7 +73,7 @@ export default function Project() {
           <h1 className="scroll text-center md:text-left md:ml-20 text-3xl text-cyan-500 font-bold mb-4" style={{"--direction":"scroll-left"} as React.CSSProperties}>This <span className="text-cyan-300">Resume</span> Website</h1>
           <div className="md:flex place-items-center gap-10">
             <div className="scroll w-11/12 md:w-1/2 mx-auto md:ml-20" style={{"--direction":"scroll-left"} as React.CSSProperties}>
-              <img src={Data.resume[0].img} className="h-80 w-full"></img>
+              <img src={Data.resume[0].img} className="h-80 w-full object-cover"></img>
             </div>
             <p className="bg-sky-950 mt-10 md:mt-0 md:w-1/2 m-2 p-10 md:mr-10 h-fit text-cyan-500 text-sm md:text-lg shadow-inner shadow-slate-900">{Data.resume[0].detail}</p>
           </div>
