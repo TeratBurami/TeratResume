@@ -42,7 +42,7 @@ export default function Nav() {
             <div className='boxShadow rounded mx-auto p-1 px-4 md:p-2 md:px-6 w-fit h-fit my-auto'>
               <p className="colorFade text-base md:text-xl font-semibold my-auto">Terat Burami's Resume</p>
             </div>
-            <img className="object-cover rounded-full w-10 h-10 my-auto" src="public/assets/profile.png" alt="" />
+            <img className="object-cover rounded-full w-10 h-10 my-auto" src="/profile.png" alt="" />
         </div>
       </div>
 
