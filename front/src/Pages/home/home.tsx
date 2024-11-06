@@ -19,7 +19,7 @@ export default function Home() {
       {/* personal information */}
       <div className="flex flex-wrap md:flex-nowrap lg:flex-nowrap p-10 mt-20 justify-center gap-20">
         <div className="p-4 bg-cyan-950 shadow-inner shadow-black rounded-full">
-          <img className="rounded-full" src="/assets/profile.png" alt="" />
+          <img className="rounded-full" src="public/assets/profile.png" alt="" />
         </div>
         <div className="w-full md:w-1/3 my-auto shadow-inner shadow-slate-900 p-4 rounded-xl">
           <h1 className="mt-4 font-bold text-4xl text-center text-cyan-300">
