@@ -1,7 +1,5 @@
-
 {
-    "rewrites": [
-        { "source": "/(./src/Pages/project/project.tsx))", "destination": "https://terat-resume.info/projects" },
-        { "source": "/(./src/Pages/activity/activity.tsx)", "destination": "https://terat-resume.info/experiences" }
+    "rewrites":  [
+      {"source": "/(.*)", "destination": "/"}
     ]
-}
+  }
