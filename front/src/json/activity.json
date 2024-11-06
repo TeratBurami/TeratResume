@@ -1,38 +1,94 @@
 [
   {
-    "img": "https://i.pinimg.com/564x/44/98/b6/4498b6ef6034c4402a35ebdb757c9df9.jpg",
+    "img": "\\activity\\mymind.JPG",
     "date": "Nov 2023",
     "title": "Hackathon Mahidol MU My Mind",
-    "more_detail": "Collaborated during a hackathon to solving a problem and create prototype of smartphone application that aims to manage stress and lower the risk of depression. In addition to mindfulness exercises, guided meditations, and breathing methods, the app offered daily mood tracking, stress assessments, and individualized wellness advice. created a friendly atmosphere for mental health by implementing community-based support tools for user participation. used data analytics to promote healthy lifestyle choices and offer tailored feedback in order to enhance mental health results."
+    "more_detail": "Collaborated with \"ReMind\" team during a hackathon to solving a problem and create prototype of smartphone application that aims to manage stress and lower the risk of depression. In addition to mindfulness exercises, guided meditations, and breathing methods, the app offered daily mood tracking, stress assessments, and individualized wellness advice. created a friendly atmosphere for mental health by implementing community-based support tools for user participation. used data analytics to promote healthy lifestyle choices and offer tailored feedback in order to enhance mental health results.",
+    "button": [
+      {
+        "title": "Explore Prototype",
+        "url": "https://www.figma.com/proto/iOarAmlnFDDPFmvJlDDKt2/ReMind?type=design&node-id=236-248"
+      },
+      {
+        "title": "Certificate",
+        "url": "/activity/mymind_cert.jpg"
+      }
+    ]
   },
   {
-    "img": "https://i.pinimg.com/736x/b5/cb/6a/b5cb6a5834e037173d91938e03a09c6e.jpg",
+    "img": "\\activity\\thctt2023.png",
     "title": "Thailand Cyber Top Talent 2023 by NCSA",
     "date": "Sept 2023",
-    "more_detail": "My first competition was in the cybersecurity field. Thailand Cyber Top Talent 2023 is a competition called Capture The Flag (CTF) that uses several cyber security skills to solve the problem and find the flag as an answer. I was part of the \"Lorem Ipsum\" team, I took on the responsibility of Network and Web exploitation. We ended up with 81/354"
+    "more_detail": "My first competition was in the cybersecurity field. Thailand Cyber Top Talent 2023 is a competition called Capture The Flag (CTF) that uses several cyber security skills to solve the problem and find the flag as an answer. I was part of the \"Lorem Ipsum\" team, I took on the responsibility of Network and Web exploitation. We ended up with 81/354",
+    "button": [
+      {
+        "title": "Explore Scoreboard",
+        "url": "https://cloud.ctf.in.th/score/view.html?id=2HFLHQZCMI&t=WpUCDQyoXaG7MSteD4BK/Jg3qyIsUCRE/iJ2HRYePCl4Qkqb69hVsz/Ka3jmVg9Zaf9xaUTR0yk="
+      }
+    ]
   },
   {
-    "img": "https://i.pinimg.com/564x/a9/8c/ef/a98cef81d9968637981fed0a46fccd9b.jpg",
+    "img": "\\activity\\thctt2024.png",
     "title": "Thailand Cyber Top Talent 2024 by NCSA",
     "date": "Sept 2024",
-    "more_detail": "I took so much time to practice myself to be better than the previous year, this year I was with the \"404BrainNotFound\" team. I focused on Web exploitation, Network, Forensic, and Mobile app exploitation. We improved ourselves and got a better ranking 24/340 for total teams, the first place of Mahidol University, and were third in our region"
+    "more_detail": "I took so much time to practice myself to be better than the previous year, this year I was with the \"404BrainNotFound\" team. I focused on Web exploitation, Network, Forensic, and Mobile app exploitation. We improved ourselves and got a better ranking 24/340 for total teams, the first place of Mahidol University, and were third in our region",
+    "button": [
+      {
+        "title": "Explore Scoreboard",
+        "url": "https://cloud.ctf.in.th/score/view.html?id=QR66WITOOJ&t=WpUCDQyoXaG7MSteD4BK/Jg3qyIsUCRErURQa7xkesp4Qkqb69hVsz/Ka3jmVg9Zaf9xaUTR0yk="
+      },
+      {
+        "title": "Certificate",
+        "url": "/activity/thctt_cert.jpg"
+      }
+    ]
   },
   {
-    "img": "https://i.pinimg.com/564x/9d/ec/4e/9dec4e404f72d956507757420ab8e3f2.jpg",
+    "img": "\\activity\\icpc.JPG",
     "date": "Sept 2024",
     "title": "ICPC Thailand National Competition 2024",
-    "more_detail": "ICPC is a programming and problem-solving competition for universities across the country by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management."
+    "more_detail": "ICPC is a programming and problem-solving competition for universities across the country by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management.",
+    "button": [
+      {
+        "title": "Explore Scoreboard",
+        "url": "https://icpc-2024.cp.eng.chula.ac.th/contest/scoreboard"
+      }
+    ]
   },
   {
-    "img": "https://i.pinimg.com/564x/e9/4a/d5/e94ad5ad40469eedde77685d68e42fa2.jpg",
+    "img": "\\activity\\aaa.JPG",
     "date": "Sept 2024",
     "title": "Hackathon 2024: Alveolar Antral Artery",
-    "more_detail": "AI Hackathon: Alveolar Antral Artery Detection, training AI located and clarified alveolar antral artery’s position with 3 classes by 3000 datasets"
+    "more_detail": "AI Hackathon: Alveolar Antral Artery Detection, training AI located and clarified alveolar antral artery’s position with 3 classes by 3000 datasets",
+    "button": [
+      {
+        "title": "More Details",
+        "url": "https://www.ict.mahidol.ac.th/news/muict-aiclub-hackathon-2024-alveolar-antral-artery/"
+      }
+    ]
   },
   {
-    "img": "https://i.pinimg.com/564x/da/1d/b1/da1db1452129ce8557f08c8983403752.jpg",
+    "img": "\\activity\\freshy.jpg",
+    "date": "July 2024",
+    "title": "MUICT Welcome freshy 2024",
+    "more_detail": "Served as a dedicated staff member for the MUICT Welcome Freshy 2024 event, where I contributed to organizing and managing various activities to ensure a smooth and engaging experience for incoming students. Collaborated closely with team members to coordinate logistics, handle event operations, and assist newcomers, fostering a welcoming atmosphere and encouraging community building within the faculty.",
+    "button": [
+      {
+        "title": "More Details",
+        "url": "https://www.ict.mahidol.ac.th/news/welcome-freshy-and-sairahus-2024/"
+      }
+    ]
+  },
+  {
+    "img": "\\activity\\cyberaware.JPG",
     "date": "Jan 2025",
     "title": "MUICT-AST: Cyber Awareness",
-    "more_detail": "MUICT-AST invites me to be a speaker to talk about cybersecurity for the students of Mahidol University. The topic is \"Cyber Security Awareness\" speaking about how to protect the device from a hacker, it also has a practical lab. I am thrilling to be able to share my knowledge with the students of Mahidol University."
+    "more_detail": "MUICT-AST invites me to be a speaker to talk about cybersecurity for the students of Mahidol University. The topic is \"Cyber Security Awareness\" speaking about how to protect the device from a hacker, it also has a practical lab. I am thrilling to be able to share my knowledge with the students of Mahidol University.",
+    "button": [
+      {
+        "title": "More Details",
+        "url": "https://www.ict.mahidol.ac.th/en/event/cyber-awareness/"
+      }
+    ]
   }
 ]
