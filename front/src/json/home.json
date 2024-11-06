@@ -77,12 +77,12 @@
           "title": "C"
         },
         {
-          "src": "\\src\\assets\\images\\language\\csharp.png",
+          "src": "\\front\\src\\assets\\images\\language\\csharp.png",
           "detail":"lorem",
           "title": "C#"
         },
         {
-          "src": "\\assets\\images\\language\\c++.png",
+          "src": "\\front\\src\\assets\\images\\language\\c++.png",
           "detail":"lorem",
           "title": "C++"
         },
