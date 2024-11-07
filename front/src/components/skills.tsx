@@ -45,7 +45,7 @@ export default function Skills() {
                         <img className='w-8 h-8 md:w-12 md:h-12 rounded-full object-cover' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-sm text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -58,7 +58,7 @@ export default function Skills() {
                         <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-sm text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -84,7 +84,7 @@ export default function Skills() {
                         <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-sm text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -97,7 +97,7 @@ export default function Skills() {
                         <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
                         <div className="place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-sm text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -110,7 +110,7 @@ export default function Skills() {
                         <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
                         <div className="flex-cols place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-sm text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
