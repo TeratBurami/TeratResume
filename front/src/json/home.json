@@ -4,182 +4,182 @@
       "web_dev": [
         {
           "src": "https://i.pinimg.com/564x/ca/e1/b4/cae1b4f6b223fe5a7bb712b680cffa67.jpg",
-          "detail":"lorem",
+          "detail":"Creating and structuring web",
           "title": "HTML"
         },
         {
           "src": "\\web_dev_icon\\css.png",
-          "detail":"lorem",
+          "detail":"Styling and arranging web",
           "title": "CSS"
         },
         {
           "src": "\\web_dev_icon\\js.png",
-          "detail":"lorem",
+          "detail":"Scripting language for web",
           "title": "Javascript"
         },
         {
           "src": "\\web_dev_icon\\react.png",
-          "detail":"lorem",
+          "detail":"JS library for user interfaces",
           "title": "React.js"
         },
         {
           "src": "\\web_dev_icon\\node.png",
-          "detail":"lorem",
+          "detail":"Runtime for executing JS",
           "title": "Node.js"
         },
         {
           "src": "\\web_dev_icon\\next.png",
-          "detail":"lorem",
+          "detail":"Framework for server-rendered",
           "title": "Next.js"
         },
         {
           "src": "\\web_dev_icon\\express.png",
-          "detail":"lorem",
+          "detail":"Framework for web applications",
           "title": "Express.js"
         },
         {
           "src": "\\web_dev_icon\\bootstrap.png",
-          "detail":"lorem",
+          "detail":"CSS framework for responsive",
           "title": "Bootstrap"
         },
         {
           "src": "\\web_dev_icon\\tailwind.png",
-          "detail":"lorem",
+          "detail":"CSS framework for UI design",
           "title": "Tailwind"
         }
       ],
       "database": [
         {
           "src": "\\database\\mysql.png",
-          "detail":"lorem",
+          "detail":"Database management system",
           "title": "MySQL"
         },
         {
           "src": "\\database\\mongo.png",
-          "detail":"lorem",
+          "detail":"NoSQL for storing data",
           "title": "MongoDB"
         },
         {
           "src": "\\database\\sqllite.png",
-          "detail":"lorem",
-          "title": "SQLlite"
+          "detail":"Lightweight SQL engine",
+          "title": "SQLite"
         },
         {
           "src": "\\database\\graph.png",
-          "detail":"lorem",
+          "detail":"Query language for APIs",
           "title": "GraphQL"
         }
       ],
       "language": [
         {
           "src": "\\language\\c.png",
-          "detail":"lorem",
+          "detail":"Powerful low-level language",
           "title": "C"
         },
         {
           "src": "\\language\\csharp.png",
-          "detail":"lorem",
+          "detail":"Developing apps on the .NET framework",
           "title": "C#"
         },
         {
           "src": "\\language\\c++.png",
-          "detail":"lorem",
+          "detail":"Extension of C with OOP",
           "title": "C++"
         },
         {
           "src": "\\language\\java.png",
-          "detail":"lorem",
+          "detail":"General-purpose OOP language",
           "title": "Java"
         },
         {
           "src": "\\language\\python.png",
-          "detail":"lorem",
+          "detail":"Versatile, ease of use language",
           "title": "Python"
         },
         {
           "src": "\\language\\dart.png",
-          "detail":"lorem",
+          "detail":"Building web and mobile apps",
           "title": "Dart"
         },
         {
           "src": "\\web_dev_icon\\js.png",
-          "detail":"lorem",
+          "detail":"Scripting language for web",
           "title": "Javascript"
         },
         {
           "src": "\\language\\ts.png",
-          "detail":"lorem",
+          "detail":"Superset of JS for scalable apps",
           "title": "Typescript"
         }
       ],
       "cybersecurity": [
         {
           "src": "\\cybersecurity\\kali.png",
-          "detail":"lorem",
+          "detail":"Cybersecurity linux distribution",
           "title": "Kali Linux"
         },
         {
           "src": "\\cybersecurity\\burp.png",
-          "detail":"lorem",
+          "detail":"Web application security testing",
           "title": "Burp suite"
         },
         {
           "src": "\\cybersecurity\\wireshark.png",
-          "detail":"lorem",
+          "detail":"Network protocol analyzer",
           "title": "Wireshark"
         },
         {
           "src": "\\cybersecurity\\john.png",
-          "detail":"lorem",
+          "detail":"Password cracking, bruteforce",
           "title": "John"
         },
         {
           "src": "\\cybersecurity\\nmap.png",
-          "detail":"lorem",
+          "detail":"Devices and services scanning",
           "title": "Nmap"
         }
       ],
       "tools": [
         {
           "src": "\\tools\\vscode.png",
-          "detail":"lorem",
+          "detail":"Code editor by Microsoft",
           "title": "VS Code"
         },
         {
           "src": "\\tools\\cloudflare.png",
-          "detail":"lorem",
+          "detail":"Infrastructure and security",
           "title": "Cloudflare"
         },
         {
           "src": "\\tools\\firebase.png",
-          "detail":"lorem",
+          "detail":"Developing and scaling web apps",
           "title": "Firebase"
         },
         {
           "src": "\\tools\\postman.png",
-          "detail":"lorem",
+          "detail":"Testing and debugging APIs",
           "title": "Postman"
         },
         {
           "src": "\\tools\\docker.png",
-          "detail":"lorem",
+          "detail":"Containerizing and deploying",
           "title": "Docker"
         },
         {
           "src": "\\tools\\github.png",
-          "detail":"lorem",
+          "detail":"Version control and collaboration",
           "title": "GitHub"
         }
       ],
       "opr_system": [
         {
           "src": "\\tools\\windows.png",
-          "detail":"lorem",
+          "detail":"Operating system by Microsoft",
           "title": "Windows"
         },
         {
           "src": "\\tools\\linux.png",
-          "detail":"lorem",
+          "detail":"Open-source operating system",
           "title": "Linux"
         }
       ]

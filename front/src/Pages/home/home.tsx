@@ -35,7 +35,7 @@ I enjoy trying new things, finding new interests, acquiring experiences, and am 
       </div>
       
 
-      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-3/4 lg:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
+      <div className="flex justify-start md:justify-center mt-20 gap-20 bg-cyan-900/25 flex-wrap md:flex-nowrap w-11/12 md:w-3/4 xl:w-1/2 mx-auto rounded-3xl shadow-lg shadow-slate-900 p-10">
         <div className="languages">
           <h1 className="text-2xl font-bold text-cyan-300">
             Languages
@@ -67,7 +67,7 @@ I enjoy trying new things, finding new interests, acquiring experiences, and am 
       </div>
 
       {/* education */}
-      <div className="w-5/6 md:w-3/4 lg:w-1/2 mx-auto mt-10 md:mt-16">
+      <div className="w-5/6 md:w-3/4 xl:w-1/2 mx-auto mt-10 md:mt-16">
         <h1 className="text-white md:text-2xl">Education</h1>
         <div className="md:flex justify-between mt-4 gap-24">
           {Data.education.map((item)=> (
