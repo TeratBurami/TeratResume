@@ -42,8 +42,8 @@ export default function Skills() {
             <div className="grid grid-cols-3 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.web_dev?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full object-cover' src={item.src} alt="" />
-                        <div className="flex-cols place-items-center">
+                        <img className='w-12 h-12 object-cover' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
@@ -55,8 +55,8 @@ export default function Skills() {
             <div className="grid grid-cols-3 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.database?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
-                        <div className="flex-cols place-items-center">
+                        <img className='w-12 h-12' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
@@ -68,8 +68,8 @@ export default function Skills() {
             <div className="grid grid-cols-3 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.language?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
-                        <div className="flex-cols place-items-center">
+                        <img className='w-12 h-12' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
@@ -81,8 +81,8 @@ export default function Skills() {
             <div className="grid grid-cols-3 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.cybersecurity?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
-                        <div className="flex-cols place-items-center">
+                        <img className='w-12 h-12' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
@@ -93,9 +93,9 @@ export default function Skills() {
           <TabPanel value={4} sx={{backgroundColor: "background.surface", borderRadius: "lg", width: match_media ? "calc(5/6*100%)" : "100%", margin: "15px auto",height:match_media ? "400px" : "550px", boxShadow:"0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19)"}}>
             <div className="grid grid-cols-3 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.tools?.map((item)=>(
-                    <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-between w-32 h-32 p-1.5 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
-                        <div className="place-items-center">
+                    <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-1.5 shadow shadow-slate-400 rounded-lg place-items-center'>
+                        <img className='w-12 h-12' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>
@@ -107,8 +107,8 @@ export default function Skills() {
             <div className="grid grid-cols-2 md:flex flex-wrap gap-y-4 md:gap-10 md:gap-y-4 mx-auto">
                 {Data.skills[0]?.opr_system?.map((item)=>(
                     <div key={item.src} className='mx-auto md:mx-0 flex flex-col justify-around w-32 h-32 p-2 shadow shadow-slate-400 rounded-lg place-items-center'>
-                        <img className='w-8 h-8 md:w-12 md:h-12 rounded-full' src={item.src} alt="" />
-                        <div className="flex-cols place-items-center">
+                        <img className='w-12 h-12' src={item.src} alt="" />
+                        <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
                             <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
                         </div>

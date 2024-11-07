@@ -1,41 +1,47 @@
-.navbar{
-    background-color: #ffffff8f;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    backdrop-filter: blur(2px);
-    -webkit-animation: color_fade linear;
-    animation: color_fade linear;
-    -webkit-animation-timeline: scroll();
-    -webkit-animation-range: 0 200px;
-}
-
-.colorFade{
-    -webkit-animation: text_fade linear;
-    animation: text_fade linear;
-    -webkit-animation-timeline: scroll();
-    -webkit-animation-range: 0 200px;
-    color: rgb(0, 50, 100);
-}
-
-.boxShadow{
-    box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
-    -webkit-animation: shadow_fade linear;
-    animation: shadow_fade linear;
-    -webkit-animation-timeline: scroll();
-    -webkit-animation-range: 0 200px;
-}
-
-
-@-webkit-keyframes color_fade{
-    from {
-        background-color: #0a1322;
-        backdrop-filter: blur(0px);
-    }
-    to {
+@media (min-width: 768px) {
+    .navbar{
         background-color: #ffffff8f;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
         backdrop-filter: blur(2px);
+        animation: color_fade linear;
+        animation-timeline: scroll();
+        animation-range: 0 200px;
+    }
+
+    .colorFade{
+        animation: text_fade linear;
+        animation-timeline: scroll();
+        animation-range: 0 200px;
+        color: rgb(0, 50, 100);
+    }
+
+    .boxShadow{
+        box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
+        animation: shadow_fade linear;
+        animation-timeline: scroll();
+        animation-range: 0 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        background-color: #ffffff8f;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        backdrop-filter: blur(2px);
+    }
+
+    .colorFade {
+        color: rgb(0, 50, 100);
+    }
+
+    .boxShadow {
+        box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -50,30 +56,12 @@
     }
 }
 
-@-webkit-keyframes shadow_fade{
-    from {
-        box-shadow: 0 1px 4.5px 0px rgba(255, 255, 255, 0.5);
-    }
-    to {
-        box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
-    }
-}
-
 @keyframes shadow_fade{
     from {
         box-shadow: 0 1px 4.5px 0px rgba(255, 255, 255, 0.5);
     }
     to {
         box-shadow: 0 1px 4.5px 0px rgba(0, 0, 0, 0.5);
-    }
-}
-
-@-webkit-keyframes text_fade{
-    from {
-        color: #ffffff;
-    }
-    to {
-        color: rgb(0, 50, 100);
     }
 }
 
