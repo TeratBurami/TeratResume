@@ -21,20 +21,6 @@ export default function scrollingImg({image}:Prop){
       }
     }
 
-    const imageDisplay=()=>{
-        // Create two sets of elements for seamless scrolling
-        image.forEach(item => {
-            <img src={item} alt="" />
-        });
-        // Duplicate elements for continuous scrolling
-        image.forEach(item => {
-            <img src={item} alt="" />
-        });
-    }
-
-    useEffect(()=>{
-        imageDisplay()
-    }, []) // Empty dependency array to run only once
 
     return(
         <div className='banner-container' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>

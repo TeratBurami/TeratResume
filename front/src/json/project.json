@@ -10,7 +10,9 @@
   ],
   "ophweb": [
     {
-      "img": "\\project\\oph2.png",
+      "img": "\\project\\oph.png",
+      "img2": "\\activity\\oph_web.JPG",
+      "img3": "\\activity\\oph_web2.JPG",
       "design":"I designed the MUICT Openhouse 2023 registration page using Figma. That year's Openhouse had a Minecraft theme, so I had to think about coding in addition to designing it with that theme.",
       "front":"Following the design, I utilize Figma to construct the UX/UI, maintain the theme, and make it mobile-friendly.",
       "collab":"We collaborate to create a website for students to register for the MUICT Openhouse 2023 event. As a front-end developer, it is my responsibility to implement UX/UI.",

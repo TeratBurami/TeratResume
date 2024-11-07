@@ -4,7 +4,7 @@ import Drawer from "@mui/joy/Drawer";
 import List from "@mui/joy/List";
 import ModalClose from "@mui/joy/ModalClose";
 import { Link, useLocation } from "react-router-dom";
-import WidgetsIcon from "@mui/icons-material/Widgets";
+import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from "@mui/icons-material/Home";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
@@ -36,14 +36,14 @@ export default function Nav() {
         <div className="navbar z-0 left-0 w-full h-16"></div>
         <div className="relative z-20 flex w-full p-2 px-4">
           <button
-            className="w-fit h-fit px-1 pb-1 pt md:p-1.5 my-auto rounded boxShadow"
+            className="w-fit h-fit px-1 pb-1 md:p-1 my-auto rounded boxShadow"
             onClick={toggleDrawer(true)}
           >
-            <WidgetsIcon
+            <MenuIcon
               className="colorFade"
               fontSize={match_media ? "medium" : "small"}
               sx={{}}
-            ></WidgetsIcon>
+            ></MenuIcon>
           </button>
           <div className="boxShadow rounded mx-auto p-1 px-4 md:p-2 md:px-6 w-fit h-fit my-auto">
             <p className="colorFade text-base md:text-xl font-semibold my-auto">
