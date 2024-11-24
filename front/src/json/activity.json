@@ -47,7 +47,7 @@
     "img": "\\activity\\icpc.JPG",
     "date": "Sept 2024",
     "title": "ICPC Thailand National Competition 2024",
-    "more_detail": "ICPC is a programming and problem-solving competition for universities across the country by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management.",
+    "more_detail": "ICPC is a programming and problem-solving competition for universities across the country presented by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management.",
     "button": [
       {
         "title": "Explore Scoreboard",
@@ -76,6 +76,18 @@
       {
         "title": "More Details",
         "url": "https://www.ict.mahidol.ac.th/news/welcome-freshy-and-sairahus-2024/"
+      }
+    ]
+  },
+  {
+    "img": "\\activity\\hackloween.jpg",
+    "date": "Oct 2024",
+    "title": "Hackloween CTF Event 2024",
+    "more_detail": "I participated in the Hackloween CTF event presented by secplayground, a cybersecurity competition that challenges participants to solve various cybersecurity challenges. I worked in a team to solve challenges and gain insights into the world of cybersecurity. It was a valuable experience that allowed me to apply my skills and knowledge in a competitive environment.",
+    "button": [
+      {
+        "title": "More Details",
+        "url": "https://web.facebook.com/share/p/15MdW5xhDm/"
       }
     ]
   },

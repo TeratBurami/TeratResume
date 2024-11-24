@@ -12,7 +12,7 @@ export default function Project() {
         <Nav></Nav>
         <h1 className="glow text-center text-6xl md:text-8xl font-bold pt-40 mb-20">PROJECTS</h1>
         <section>
-          <img src={Data.artsdrops[0].img} className="scale w-3/4 h-96 mx-auto mb-8" style={{"--scale":"scale-up"} as React.CSSProperties}></img>
+          <img src={Data.artsdrops[0].img} className="scale w-3/4 h-40 md:h-96 mx-auto mb-8" style={{"--scale":"scale-up"} as React.CSSProperties}></img>
           <div className="scroll mb-10" style={{"--direction":"scroll-up"}as React.CSSProperties}>
             <h1 className="text-center text-4xl font-bold text-cyan-200 mb-2">ArtsDrop</h1>
             <p className="w-2/3 text-left mx-auto text-sm md:text-lg text-cyan-400 font-bold">{Data.artsdrops[0].detail}</p>
