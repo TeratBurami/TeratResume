@@ -1,17 +1,24 @@
 [
   {
-    "img": "\\activity\\mymind.JPG",
-    "date": "Nov 2023",
-    "title": "Hackathon Mahidol MU My Mind",
-    "more_detail": "Collaborated with \"ReMind\" team during a hackathon to solving a problem and create prototype of smartphone application that aims to manage stress and lower the risk of depression. In addition to mindfulness exercises, guided meditations, and breathing methods, the app offered daily mood tracking, stress assessments, and individualized wellness advice. created a friendly atmosphere for mental health by implementing community-based support tools for user participation. used data analytics to promote healthy lifestyle choices and offer tailored feedback in order to enhance mental health results.",
+    "img":"",
+    "data":"2025",
+    "title":"MUICT Cybersecurity Club",
+    "more_detail":"I currently serve as the Vice President of the MUICT Cybersecurity Club, where I lead the organization of events and initiatives aimed at enhancing cybersecurity education for students and faculty members. My responsibilities include coordinating workshops, training sessions, and promoting awareness of cybersecurity best practices. Additionally, I oversee the planning and execution of the faculty's Capture The Flag (CTF) competitions. This includes creating challenging CTF problems, managing event logistics, and ensuring an engaging experience for all participants. Through these roles, I aim to contribute to the growth of the cybersecurity community at MUICT while honing my leadership and organizational skills.",
+    "button":[]
+  },
+  {
+    "img": "\\activity\\ast_pics\\IMG_1217.JPG",
+    "date": "Jan 2025",
+    "title": "MUICT-AST: Cyber Awareness",
+    "more_detail": "MUICT-AST invited me to be a speaker on the topic of \"Cyber Security Awareness\" for the students of Mahidol University. I discussed how to protect devices from hackers and led a practical lab. It was thrilling to share my knowledge with the students.",
     "button": [
       {
-        "title": "Explore Prototype",
-        "url": "https://www.figma.com/proto/iOarAmlnFDDPFmvJlDDKt2/ReMind?type=design&node-id=236-248"
+        "title":"Event picture",
+        "url":"\\activity\\ast_pics\\IMG_1813.JPG"
       },
       {
-        "title": "Certificate",
-        "url": "/activity/mymind_cert.jpg"
+        "title": "More Details",
+        "url": "https://www.ict.mahidol.ac.th/en/event/cyber-awareness/"
       }
     ]
   },
@@ -48,34 +55,21 @@
     "date": "Sept 2024",
     "title": "ICPC Thailand National Competition 2024",
     "more_detail": "ICPC is a programming and problem-solving competition for universities across the country presented by the Faculty of Engineering, Chulalongkorn University. A 3-person team \"PBPA\" collaborated to solve the problem, find the fastest and most efficient algorithm, then code them and submit. This competition gave me many experiences, including collaborating skills, problem-solving skills, advanced programming skills, time management, and pressure management.",
-    "button": [
-      {
-        "title": "Explore Scoreboard",
-        "url": "https://icpc-2024.cp.eng.chula.ac.th/contest/scoreboard"
-      }
-    ]
+    "button":[]
   },
   {
-    "img": "\\activity\\aaa.JPG",
-    "date": "Sept 2024",
-    "title": "Hackathon 2024: Alveolar Antral Artery",
-    "more_detail": "AI Hackathon: Alveolar Antral Artery Detection, training AI located and clarified alveolar antral artery’s position with 3 classes by 3000 datasets",
-    "button": [
+    "img":"",
+    "data":"Mar 2025",
+    "title":"CTFriend2 by the Faculty of Engineering, Mahidol University",
+    "more_detail":"CTFriend2 is a Capture The Flag (CTF) competition for high school students, organized by the Cybersecurity Club of the Faculty of Engineering, Mahidol University. It provides an opportunity for students to explore and learn about cybersecurity while also participating in a CTF competition. EGMU has invited me to be a mentor at the camp and contribute to designing the competition challenges. You can follow my work further on my personal website.",
+    "button":[
       {
-        "title": "More Details",
-        "url": "https://www.ict.mahidol.ac.th/news/muict-aiclub-hackathon-2024-alveolar-antral-artery/"
-      }
-    ]
-  },
-  {
-    "img": "\\activity\\freshy.jpg",
-    "date": "July 2024",
-    "title": "MUICT Welcome freshy 2024",
-    "more_detail": "Served as a dedicated staff member for the MUICT Welcome Freshy 2024 event, where I contributed to organizing and managing various activities to ensure a smooth and engaging experience for incoming students. Collaborated closely with team members to coordinate logistics, handle event operations, and assist newcomers, fostering a welcoming atmosphere and encouraging community building within the faculty.",
-    "button": [
+        "title":"Challenge files",
+        "url":"https://drive.google.com/drive/folders/1o9_gsLBAEEr1XXhB-gLTYOljDmh-28NP?usp=sharing"
+      },
       {
-        "title": "More Details",
-        "url": "https://www.ict.mahidol.ac.th/news/welcome-freshy-and-sairahus-2024/"
+        "title":"Write-up",
+        "url":"https://www.notion.so/CTFriends2-WriteUp-1a16d0e5d068809eac26d8529573322c?pvs=4"
       }
     ]
   },
@@ -92,14 +86,42 @@
     ]
   },
   {
-    "img": "\\activity\\cyberaware.JPG",
-    "date": "Jan 2025",
-    "title": "MUICT-AST: Cyber Awareness",
-    "more_detail": "MUICT-AST invites me to be a speaker to talk about cybersecurity for the students of Mahidol University. The topic is \"Cyber Security Awareness\" speaking about how to protect the device from a hacker, it also has a practical lab. I am thrilling to be able to share my knowledge with the students of Mahidol University.",
+    "img": "\\activity\\aaa.JPG",
+    "date": "Sept 2024",
+    "title": "Hackathon 2024: Alveolar Antral Artery",
+    "more_detail": "AI Hackathon: Alveolar Antral Artery Detection, training AI located and clarified alveolar antral artery’s position with 3 classes by 3000 datasets",
     "button": [
       {
         "title": "More Details",
-        "url": "https://www.ict.mahidol.ac.th/en/event/cyber-awareness/"
+        "url": "https://www.ict.mahidol.ac.th/news/muict-aiclub-hackathon-2024-alveolar-antral-artery/"
+      }
+    ]
+  },
+  {
+    "img": "\\activity\\mymind.JPG",
+    "date": "Nov 2023",
+    "title": "Hackathon Mahidol MU My Mind",
+    "more_detail": "Collaborated with \"ReMind\" team during a hackathon to solving a problem and create prototype of smartphone application that aims to manage stress and lower the risk of depression. In addition to mindfulness exercises, guided meditations, and breathing methods, the app offered daily mood tracking, stress assessments, and individualized wellness advice. created a friendly atmosphere for mental health by implementing community-based support tools for user participation. used data analytics to promote healthy lifestyle choices and offer tailored feedback in order to enhance mental health results.",
+    "button": [
+      {
+        "title": "Explore Prototype",
+        "url": "https://www.figma.com/proto/iOarAmlnFDDPFmvJlDDKt2/ReMind?type=design&node-id=236-248"
+      },
+      {
+        "title": "Certificate",
+        "url": "/activity/mymind_cert.jpg"
+      }
+    ]
+  },
+  {
+    "img": "\\activity\\freshy.jpg",
+    "date": "July 2024",
+    "title": "MUICT Welcome freshy 2024",
+    "more_detail": "Served as a dedicated staff member for the MUICT Welcome Freshy 2024 event, where I contributed to organizing and managing various activities to ensure a smooth and engaging experience for incoming students. Collaborated closely with team members to coordinate logistics, handle event operations, and assist newcomers, fostering a welcoming atmosphere and encouraging community building within the faculty.",
+    "button": [
+      {
+        "title": "More Details",
+        "url": "https://www.ict.mahidol.ac.th/news/welcome-freshy-and-sairahus-2024/"
       }
     ]
   }
