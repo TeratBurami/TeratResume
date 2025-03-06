@@ -10,7 +10,7 @@
         "url": "https://www.facebook.com/profile.php?id=61566020175828#"
       }
     ],
-    "imgClass": "w-3/4 h-96 mx-auto"
+    "imgClass": "w-2/3 h-96 mx-auto"
   },
   {
     "img": "\\activity\\ast_pics\\IMG_1217.JPG",
@@ -72,7 +72,7 @@
     "data": "Mar 2025",
     "title": "CTFriend2 by the Faculty of Engineering, Mahidol University",
     "more_detail": "CTFriend2 is a Capture The Flag (CTF) competition for high school students, organized by the Cybersecurity Club of the Faculty of Engineering, Mahidol University. It provides an opportunity for students to explore and learn about cybersecurity while also participating in a CTF competition. EGMU has invited me to be a mentor at the camp and contribute to designing the competition challenges. You can follow my work further on my personal website.",
-    "imgClass": "w-3/4 h-96 mx-auto",
+    "imgClass": "w-2/3 h-96 mx-auto",
     "button": [
       {
         "title": "My Challenges",
