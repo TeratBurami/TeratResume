@@ -42,7 +42,7 @@
   "resume": [
     {
       "img": "\\project\\resume.png",
-      "detail": "To highlight my abilities, I'm using React and Vite to create my resume website. Development is greatly accelerated by Vite's quick builds and real-time updates. Before decomposing my resume's sections like \"Home,\" \"Experiences,\" and \"Projects\" into their component parts, I first set up the Vite project using React. I'm utilizing Tailwind for style in order to maintain uniformity and cleanliness. The site loads swiftly because to Vite's optimization, which is perfect for creating a positive impression. To make my work and abilities easily accessible, I intend to deploy it to Firebase.",
+      "detail": "To highlight my abilities, I'm using React and Vite to create my resume website. Development is greatly accelerated by Vite's quick builds and real-time updates. Before decomposing my resume's sections like \"Home,\" \"Experiences,\" and \"Projects\" into their component parts, I first set up the Vite project using React. I'm utilizing Tailwind for style in order to maintain uniformity and cleanliness. The site loads swiftly because to Vite's optimization, which is perfect for creating a positive impression. To make my work and abilities easily accessible, I intend to deploy it to Vercel.",
       "github": "https://github.com/TeratBurami/TeratResume"
     }
   ]

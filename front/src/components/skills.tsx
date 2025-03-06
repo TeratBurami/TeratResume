@@ -45,7 +45,7 @@ export default function Skills() {
                         <img className='w-12 h-12 object-cover' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -58,7 +58,7 @@ export default function Skills() {
                         <img className='w-12 h-12' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -71,7 +71,7 @@ export default function Skills() {
                         <img className='w-12 h-12' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -84,7 +84,7 @@ export default function Skills() {
                         <img className='w-12 h-12' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -97,7 +97,7 @@ export default function Skills() {
                         <img className='w-12 h-12' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
@@ -110,7 +110,7 @@ export default function Skills() {
                         <img className='w-12 h-12' src={item.src} alt="" />
                         <div className="flex flex-col place-items-center">
                             <p className='text-md font-bold text-cyan-800'>{item.title}</p>
-                            <p className='text-[0.40rem] text-cyan-700'>{item.detail}</p>
+                            <p className='text-[0.40rem] md:text-[0.46rem] text-cyan-700'>{item.detail}</p>
                         </div>
                     </div>
                 ))}
